@@ -68,8 +68,6 @@
 #define _FILE_DUMPSTACK ".\\data\\crash\\DumpStack"
 #define _FILE_TEMP ".\\data\\app\\RUNTIME.temp"
 #define _FILE_VERSION ".\\data\\VERSION"
-#define _FILE_STGAPI_DLL ".\\stg.core.api.dll"
-#define _FILE_EXTENSIONAPI_DLL ".\\stg.extension.api.dll"
 #define _FILE_FIRSTRUN ".\\data\\app\\first_run"
 
 #define _SFX_MAINMENU "mainmenu.wav"
