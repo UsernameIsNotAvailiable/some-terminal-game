@@ -1,0 +1,48 @@
+{
+    "files.associations": {
+        "windows.h": "c",
+        "c_handle.h": "c",
+        "error.h": "c",
+        "resources.h": "c",
+        "settingsmenu.h": "c",
+        "conio.h": "c",
+        "mainmenu.h": "c",
+        "inttypes.h": "c",
+        "stdint.h": "c",
+        "shlwapi.h": "c",
+        "stg.core.api.h": "c",
+        "windef.h": "c",
+        "winnt.h": "c",
+        "stgapi.extensions.h": "c",
+        "stdbool.h": "c",
+        "stdio.h": "c",
+        "random.h": "c",
+        "stdarg.h": "c",
+        "stg.extensions.api.h": "c",
+        "intrin.h": "c",
+        "intrin0.inl.h": "c",
+        "temporarycontainer.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "mail.h": "c",
+        "wdm.h": "c",
+        "bugcodes.h": "c",
+        "ntddk.h": "c",
+        "ntdef.h": "c",
+        "winhttp.h": "c",
+        "cjson.h": "c",
+        "wincrypt.h": "c",
+        "types.h": "c",
+        "topright.h": "c",
+        "registry.h": "c",
+        "usrmgr.h": "c",
+        "*.rh": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "Lua.diagnostics.globals": [
+        "test"
+    ],
+    "Lua.diagnostics.disable": [
+        "undefined-global"
+    ]
+}

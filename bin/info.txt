@@ -1,0 +1,6 @@
+user32.lib
+kernel32.lib (default addition)
+psapi.lib	    
+dbghelp.lib	    
+rpcrt4.lib
+shlwapi.lib

@@ -1,0 +1,4 @@
+DefaultColor=white
+Options : green, red, purple, yellow, pink, white, blue#
+SuppressSplashMessage=true
+DumpStackOnCrash=true

@@ -1,0 +1,40 @@
+Documentation / Startup
+
+  SomeTerminalGame starts with the common program entry function of
+"main." Main is defined as "int main(int argc, char *argv[])." the
+paramater "argc," is an integer count of the amount of items inside of
+the array argv. These two work together to allow the parsing of what's 
+known as arguments. After that, we invoke (call) SetConsoleOutputCP.
+In plain english terms, this translates to Set the character set that 
+is being used to display text to the user. What is means is that I am 
+now able to display "special" characters in the terminal.
+
+  After that has finished, we do some parsing of early arguments (argv).
+These arguments are special as they do not need other things to be set 
+yet. The two special arguments are as follows: "--help", and "--reset".
+Most arguments are prefixed with a "/", "-", or "--". What do these 
+arguments do? These argument "--help", does what the name says, displays 
+basic help information to the user. This information includes arguments.
+Next up is, "--reset", this one is responsible for setting program settings
+back to default. If none of these conditions are met, we move to the next phase.
+
+  After that, we proceed to get what we call the build number. The build number is 
+like a special number that is dependent on when the program code is converted into 
+binary. We use this to get more exact information on the program independent of the 
+version. This is because the version has to be set set by me inside the program's code.
+After that, we get some extra information and compile it into a string. This string is 
+known as version information and looks something like the following:
+
+  SomeTerminalGame Version 1.7.9.4 codename "Return" build 5450 - Compiled Sun Apr 13 17:18:56 2025 local time (1744564749 unix time) with MSVC Version 19.43.4809
+
+  There is a ton of information here, so let's break it down. First thing we see, excluding
+"SomeTerminalGame", is the version. The version can be broken down into the following: 
+High.Medium.Low.UltraLow. High changes when Medium reaches 9, medium changes when low reaches
+9. Ultra low is not always used it's just added for extended information like testing. The next 
+part is the build number which we went over earlier. Next is the date when it was compiled. Compiled 
+means turning the program code into 1's and 0's which a computer can understand. Next is the MSVC version,
+this is the software used to do the compilation.
+
+  The next part that happens is the initialization of something known as "sessiond," this stands for 
+session data. Next we fetch the PID (Process ID). A PID is a unique number used to identify a process 
+in an operating system like Windows. 

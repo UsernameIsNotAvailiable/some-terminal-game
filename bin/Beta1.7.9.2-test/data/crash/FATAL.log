@@ -1,0 +1,305 @@
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 18216 : 0x00007FF67904312B : 0x0000005725E11578 : 0x00007FF679049449
+      Refferal ID: 500-18216-32423
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 11332 : 0x00007FF67904312B : 0x000000222C870F38 : 0x00007FF679049449
+      Refferal ID: 500-11332-32472
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 19328 : 0x00007FF6E117312B : 0x000000B2DCDCE478 : 0x00007FF6E11795D9
+      Refferal ID: 500-19328-10870
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 8548 : 0x00007FF6E117312B : 0x000000170D0FE178 : 0x00007FF6E11795D9
+      Refferal ID: 500-8548-11063
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 17156 : 0x00007FF6573F312B : 0x000000BABA2FE4B8 : 0x00007FF6573F95D9
+      Refferal ID: 500-17156-11174
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 2628 : 0x00007FF69957312B : 0x000000989170E4F8 : 0x00007FF6995795D9
+      Refferal ID: 500-2628-11415
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 3912 : 0x00007FF7DA09312B : 0x00000064F559E538 : 0x00007FF7DA0995D9
+      Refferal ID: 500-3912-11478
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 9356 : 0x00007FF7022C312B : 0x000000E86A0FE178 : 0x00007FF7022C95D9
+      Refferal ID: 500-9356-11576
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 20652 : 0x00007FF77285312B : 0x00000012361FE5F8 : 0x00007FF7728595D9
+      Refferal ID: 500-20652-11683
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 6660 : 0x00007FF77285312B : 0x0000000977CFE2F8 : 0x00007FF7728595D9
+      Refferal ID: 500-6660-11709
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 20688 : 0x00007FF732EE312B : 0x000000B4CE8FE6B8 : 0x00007FF732EE95D9
+      Refferal ID: 500-20688-11722
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 5816 : 0x00007FF7DF10312B : 0x000000B0F1D8E7F8 : 0x00007FF7DF1095D9
+      Refferal ID: 500-5816-11804
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 10936 : 0x00007FF78826312B : 0x0000001DE90FE3B8 : 0x00007FF7882695D9
+      Refferal ID: 500-10936-11941
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 16408 : 0x00007FF6304E312B : 0x00000056E4BCE4B8 : 0x00007FF6304E95E9
+      Refferal ID: 500-16408-12150
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 11548 : 0x00007FF6FC32312B : 0x0000002A008FE6F8 : 0x00007FF6FC3295F9
+      Refferal ID: 500-11548-12634
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 19488 : 0x00007FF62061312B : 0x0000003F97B8E638 : 0x00007FF6206195F9
+      Refferal ID: 500-19488-12865
+Fatal error initiated with reason of: DLL_UNLOAD_FAILURE (0x00000002C).
+      Technical information: 11880 : 0x00007FF759B4312B : 0x000000C5640FF4E8 : 0x00007FF759B49A48
+      Refferal ID: 500-11880-12947
+Fatal error initiated with reason of: DLL_UNLOAD_FAILURE (0x00000002C).
+      Technical information: 5960 : 0x00007FF759B4312B : 0x000000E2D2BFF858 : 0x00007FF759B49A48
+      Refferal ID: 500-5960-13022
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 20772 : 0x00007FF775F0312B : 0x000000E26F8FE0F8 : 0x00007FF775F095F9
+      Refferal ID: 500-20772-13332
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 11960 : 0x00007FF7BA8D312B : 0x00000062420FE238 : 0x00007FF7BA8D9639
+      Refferal ID: 500-11960-13953
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 7696 : 0x00007FF71968312B : 0x00000049141FE438 : 0x00007FF719689639
+      Refferal ID: 500-7696-13995
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 12424 : 0x00007FF71968312B : 0x0000000D8BFAE738 : 0x00007FF719689639
+      Refferal ID: 500-12424-14008
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 8688 : 0x00007FF70A7E312B : 0x000000D4FCDBE6B8 : 0x00007FF70A7E9639
+      Refferal ID: 500-8688-14061
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 15536 : 0x00007FF67A79313B : 0x000000D7BC6FE3F8 : 0x00007FF67A799651
+      Refferal ID: 500-15536-14452
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 12036 : 0x00007FF67A79313B : 0x0000007E7395E2B8 : 0x00007FF67A799651
+      Refferal ID: 500-12036-14488
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 3788 : 0x00007FF7471D313B : 0x000000642634E2B8 : 0x00007FF7471D9601
+      Refferal ID: 500-3788-2714
+Fatal error initiated with reason of: TEST (0x0FFFFFFFF).
+      Technical information: 21400 : 0x00007FF64A54308B : 0x0000001611CFFC68 : 0x00007FF64A54AB21
+      Refferal ID: 500-21400-5441
+Fatal error initiated with reason of: TEST (0x0FFFFFFFF).
+      Technical information: 18852 : 0x00007FF7B9D92E5B : 0x00000022758FF858 : 0x00007FF7B9D9A841
+      Refferal ID: 500-18852-21776
+Fatal error initiated with reason of: ABORT_PROCESS (0x000000013).
+      Technical information: 14008 : 0x00007FF698342D9B : 0x00000045959FF888 : 0x00007FF698349491
+      Refferal ID: 500-14008-30455
+Fatal error initiated with reason of: ABORT_PROCESS (0x000000013).
+      Technical information: 17912 : 0x00007FF698342D9B : 0x0000002A861FFD78 : 0x00007FF698349491
+      Refferal ID: 500-17912-30511
+Fatal error initiated with reason of: DEBUG_FORCE_FATAL (0x000000003).
+      Technical information: 10452 : 0x00007FF76BB32D9B : 0x0000006412E76308 : 0x00007FF76BB3AB2B
+      Refferal ID: 503-10452-18922
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 2900 : 0x00007FF7F62A2D9B : 0x0000006C05975918 : 0x00007FF7F62AB9E1
+      Refferal ID: 500-2900-21202
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 6556 : 0x00007FF666842D9B : 0x000000D4AA1052B8 : 0x00007FF66684B9E1
+      Refferal ID: 500-6556-23940
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 20124 : 0x00007FF61FB22DC1 : 0x000000838C764D98 : 0x00007FF61FB33731
+      Refferal ID: 500-20124-22420
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 13348 : 0x00007FF749302DC1 : 0x0000000B2DEE5198 : 0x00007FF749313731
+      Refferal ID: 500-13348-22724
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 16020 : 0x00007FF647862DC1 : 0x000000BDA97CAEA8 : 0x00007FF647873721
+      Refferal ID: 500-16020-22880
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 24748 : 0x00007FF6E2462DC1 : 0x000000F649584CC8 : 0x00007FF6E2473731
+      Refferal ID: 500-24748-23295
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 26676 : 0x00007FF7E1462DC1 : 0x00000083AA0E4E28 : 0x00007FF7E1473731
+      Refferal ID: 500-26676-23533
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 26948 : 0x00007FF7E1462DC1 : 0x000000153CF69B38 : 0x00007FF7E1473731
+      Refferal ID: 500-26948-23834
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 5676 : 0x00007FF7E1462DC1 : 0x00000051746E4078 : 0x00007FF7E1473731
+      Refferal ID: 500-5676-23886
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 3004 : 0x00007FF756792DC1 : 0x000000E272AE4078 : 0x00007FF7567A3731
+      Refferal ID: 500-3004-24108
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 25428 : 0x00007FF756792DC1 : 0x000000A1167B43B8 : 0x00007FF7567A3731
+      Refferal ID: 500-25428-24298
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 21280 : 0x00007FF73EF02DC1 : 0x000000D80BA957F8 : 0x00007FF73EF13731
+      Refferal ID: 500-21280-25062
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 16396 : 0x00007FF73EF02DC1 : 0x000000DE82CD9B38 : 0x00007FF73EF13731
+      Refferal ID: 500-16396-25228
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 13608 : 0x00007FF6CF1A2DC1 : 0x000000616A4E5108 : 0x00007FF6CF1AF881
+      Refferal ID: 500-13608-11559
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 3004 : 0x00007FF677F12D51 : 0x000000DF7C1364E8 : 0x00007FF677F1F891
+      Refferal ID: 500-3004-14024
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Fox" build 0x0EA12 - Compiled Fri Jan 17 18:13:46 2025 (1737137628 unix time) with MSC Version 19.42.4435 at Fri Jan 17 18:13:55 2025
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 22676 : 0x00007FF7D4642D51 : 0x000000D63387B4F8 : 0x00007FF7D464F8E1
+      Refferal ID: 500-22676-16748
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0FBB8 - Compiled Fri Jan 17 18:25:20 2025 local time (1737138320 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 16604 : 0x00007FF7DA362D51 : 0x000000D6DD85CC78 : 0x00007FF7DA36FC71
+      Refferal ID: 500-16604-31372
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x07150 - Compiled Sat Jan 18 09:38:16 2025 local time (1737193101 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 4880 : 0x00007FF654362D51 : 0x0000006C23895BB8 : 0x00007FF65436FD01
+      Refferal ID: 503-4880-9900
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0C760 - Compiled Sat Jan 18 16:09:02 2025 local time (1737216543 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 21780 : 0x00007FF6BDF62D51 : 0x0000003C6AAF07D8 : 0x00007FF6BDF6FAC2
+      Refferal ID: 500-21780-22280
+Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 11156 : 0x00007FF78EFC2DE1 : 0x0000008638CB0D38 : 0x00007FF78EFCFAC2
+      Refferal ID: 500-11156-24193
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0398A - Compiled Sun Jan 19 09:57:08 2025 local time (1737281224 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 22704 : 0x00007FF6D4B72DE1 : 0x000000217FCE5208 : 0x00007FF6D4B7FAC2
+      Refferal ID: 500-22704-24461
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x03C0A - Compiled Sun Jan 19 09:57:08 2025 local time (1737281322 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 15108 : 0x00007FF74EBF2DE1 : 0x000000F4EC754E68 : 0x00007FF74EBFFAC2
+      Refferal ID: 500-15108-24827
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x03EDE - Compiled Sun Jan 19 09:57:08 2025 local time (1737281433 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 5184 : 0x00007FF70D4B2DE1 : 0x000000BDC24F4F28 : 0x00007FF70D4BFACC
+      Refferal ID: 500-5184-25388
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x04328 - Compiled Sun Jan 19 10:13:06 2025 local time (1737281601 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 8068 : 0x00007FF650C92DE1 : 0x000000481F2B0AC8 : 0x00007FF650C9FAC2
+      Refferal ID: 500-8068-26509
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x04BE8 - Compiled Sun Jan 19 10:18:10 2025 local time (1737281944 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 22784 : 0x00007FF7AF892DE1 : 0x000000145CC3D9D8 : 0x00007FF7AF89FFDD
+      Refferal ID: 500-22784-7517
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0AE40 - Compiled Sun Jan 19 14:10:34 2025 local time (1737295833 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 9696 : 0x00007FF7AF892DE1 : 0x000000A2DCA621E8 : 0x00007FF7AF89FFDD
+      Refferal ID: 500-9696-7971
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0AE40 - Compiled Sun Jan 19 14:10:34 2025 local time (1737295833 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 10844 : 0x00007FF6C8D62DE1 : 0x000000223F6B09B8 : 0x00007FF6C8D70751
+      Refferal ID: 500-10844-10871
+Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 25876 : 0x00007FF704782DE1 : 0x00000065E9A2E018 : 0x00007FF70478FFBD
+      Refferal ID: 500-25876-12288
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0DA1A - Compiled Sun Jan 19 14:39:02 2025 local time (1737297552 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 5000 : 0x00007FF769962DE1 : 0x00000072E062DF38 : 0x00007FF76997002D
+      Refferal ID: 500-5000-15008
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0F004 - Compiled Sun Jan 19 14:53:28 2025 local time (1737298411 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 14068 : 0x00007FF6F6B12DE1 : 0x000000C7956FDF78 : 0x00007FF6F6B20D01
+      Refferal ID: 500-14068-27314
+Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 12680 : 0x00007FF63F752DE1 : 0x000000A39570F188 : 0x00007FF63F758AF3
+      Refferal ID: 500-12680-27892
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x056C4 - Compiled Mon Jan 20 11:14:24 2025 local time (1737372679 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 18312 : 0x00007FF675632DE1 : 0x0000002BF18FF518 : 0x00007FF675638AF3
+      Refferal ID: 500-18312-28000
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x057BC - Compiled Mon Jan 20 11:14:24 2025 local time (1737372717 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 16464 : 0x00007FF6D9242DE1 : 0x00000072A71BF1B8 : 0x00007FF6D9248AF3
+      Refferal ID: 500-16464-28216
+Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 4176 : 0x00007FF6D9242DE1 : 0x0000008BF6F0F178 : 0x00007FF6D9248AF3
+      Refferal ID: 500-4176-28333
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x05944 - Compiled Mon Jan 20 11:14:24 2025 local time (1737372777 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 20796 : 0x00007FF6D9242DE1 : 0x00000062840FF228 : 0x00007FF6D9248AF3
+      Refferal ID: 500-20796-28379
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x05944 - Compiled Mon Jan 20 11:14:24 2025 local time (1737372777 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 22600 : 0x00007FF6D9242DE1 : 0x0000002F7FB7F408 : 0x00007FF6D9248AF3
+      Refferal ID: 500-22600-28608
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x05944 - Compiled Mon Jan 20 11:14:24 2025 local time (1737372777 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 17396 : 0x00007FF602902DE1 : 0x000000CC15EFF0F8 : 0x00007FF602908AF3
+      Refferal ID: 500-17396-29646
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06492 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373220 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 22620 : 0x00007FF602902DE1 : 0x00000072C07FF438 : 0x00007FF602908AF3
+      Refferal ID: 500-22620-29695
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06492 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373220 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 21776 : 0x00007FF602902DE1 : 0x0000005DF5CFF3B8 : 0x00007FF602908AF3
+      Refferal ID: 500-21776-29734
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06492 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373220 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 9380 : 0x00007FF602902DE1 : 0x00000097B35DF4F8 : 0x00007FF602908AF3
+      Refferal ID: 500-9380-29750
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06492 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373220 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 23240 : 0x00007FF6AC522DE1 : 0x000000481A95F718 : 0x00007FF6AC528AF3
+      Refferal ID: 500-23240-29848
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06634 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373284 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 21448 : 0x00007FF7A38E2DE1 : 0x00000055FBF5F228 : 0x00007FF7A38E8AF3
+      Refferal ID: 500-21448-30165
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06866 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373370 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 12108 : 0x00007FF7A38E2DE1 : 0x000000678DB7F218 : 0x00007FF7A38E8AF3
+      Refferal ID: 500-12108-30286
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06866 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373370 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 10612 : 0x00007FF7A38E2DE1 : 0x000000F89E12F388 : 0x00007FF7A38E8AF3
+      Refferal ID: 500-10612-30485
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06866 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373370 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 21704 : 0x00007FF7271F2DE1 : 0x000000FBE771F628 : 0x00007FF7271F8AF3
+      Refferal ID: 500-21704-30613
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06C26 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373517 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 23392 : 0x00007FF7975F2DE1 : 0x0000001D012FF318 : 0x00007FF7975F8AF3
+      Refferal ID: 500-23392-30681
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06CA8 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373537 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 10928 : 0x00007FF639972DE1 : 0x000000F5638FF6D8 : 0x00007FF639978AF3
+      Refferal ID: 500-10928-30756
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x06D2C - Compiled Mon Jan 20 11:14:24 2025 local time (1737373557 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 6296 : 0x00007FF6E2172DE1 : 0x000000FCC231F248 : 0x00007FF6E2178AF3
+      Refferal ID: 500-6296-31318
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x071A8 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373733 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 16712 : 0x00007FF6D7BC2DE1 : 0x000000C07034F7B8 : 0x00007FF6D7BC8AF3
+      Refferal ID: 500-16712-31373
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x07218 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373750 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 23424 : 0x00007FF77D8B2DE1 : 0x000000612B50F498 : 0x00007FF77D8B8AF3
+      Refferal ID: 500-23424-31537
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0735E - Compiled Mon Jan 20 11:14:24 2025 local time (1737373800 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 21548 : 0x00007FF72DE52DE1 : 0x00000022542FF078 : 0x00007FF72DE58AFD
+      Refferal ID: 500-21548-31671
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0745C - Compiled Mon Jan 20 11:14:24 2025 local time (1737373839 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 5896 : 0x00007FF72DE52DE1 : 0x0000004A11B0F828 : 0x00007FF72DE58AFD
+      Refferal ID: 500-5896-31687
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0745C - Compiled Mon Jan 20 11:14:24 2025 local time (1737373839 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 456 : 0x00007FF77EF12DE1 : 0x000000D6E02FE3B8 : 0x00007FF77EF20DD1
+      Refferal ID: 500-456-31860
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x075D2 - Compiled Mon Jan 20 11:14:24 2025 local time (1737373896 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 24552 : 0x00007FF639592DE1 : 0x000000817F0FF068 : 0x00007FF639598B0D
+      Refferal ID: 500-24552-32748
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x07CD6 - Compiled Mon Jan 20 11:14:24 2025 local time (1737374171 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 11384 : 0x00007FF639592DE1 : 0x000000207692F468 : 0x00007FF639598B0D
+      Refferal ID: 500-11384-88
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x07CD6 - Compiled Mon Jan 20 11:14:24 2025 local time (1737374171 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 24508 : 0x00007FF616A22DE1 : 0x00000084F70FF628 : 0x00007FF616A28B13
+      Refferal ID: 500-24508-927
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x08434 - Compiled Mon Jan 20 12:01:00 2025 local time (1737374460 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 12364 : 0x00007FF78CB12DE1 : 0x00000068AAAFF258 : 0x00007FF78CB18AFD
+      Refferal ID: 500-12364-1845
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x08B52 - Compiled Mon Jan 20 12:05:40 2025 local time (1737374739 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 22992 : 0x00007FF74C9F2DE1 : 0x000000D8A90FF598 : 0x00007FF74C9F8AFD
+      Refferal ID: 500-22992-2668
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x091CE - Compiled Mon Jan 20 12:05:40 2025 local time (1737374993 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 4508 : 0x00007FF77EFE2DE1 : 0x000000B869B0F508 : 0x00007FF77EFE8AFD
+      Refferal ID: 500-4508-2736
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x09264 - Compiled Mon Jan 20 12:05:40 2025 local time (1737375016 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 2540 : 0x00007FF756A62DE1 : 0x000000251C1EF818 : 0x00007FF756A68AFB
+      Refferal ID: 500-2540-2909
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x093B2 - Compiled Mon Jan 20 12:05:40 2025 local time (1737375067 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 21196 : 0x00007FF62D5C2DE1 : 0x0000007BF9D1F088 : 0x00007FF62D5C8AFB
+      Refferal ID: 500-21196-3210
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x09610 - Compiled Mon Jan 20 12:05:40 2025 local time (1737375160 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_KEY_READ_FAILURE (0x00000002D).
+      Technical information: 276 : 0x00007FF7E9312DE1 : 0x000000D53CEFF3C8 : 0x00007FF7E9318D7E
+      Refferal ID: 500-276-14421
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0E970 - Compiled Mon Jan 20 13:07:06 2025 local time (1737378428 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_KEY_READ_FAILURE (0x00000002D).
+      Technical information: 23596 : 0x00007FF7E9312DE1 : 0x000000F3888FF4C8 : 0x00007FF7E9318D7E
+      Refferal ID: 500-23596-14447
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0E970 - Compiled Mon Jan 20 13:07:06 2025 local time (1737378428 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_KEY_READ_FAILURE (0x00000002D).
+      Technical information: 2000 : 0x00007FF7E9312DE1 : 0x00000001000FF768 : 0x00007FF7E9318D7E
+      Refferal ID: 500-2000-14466
+Fatal error initiated with reason of: REGISTRY_KEY_READ_FAILURE (0x00000002D).
+      Technical information: 24216 : 0x00007FF7E9312DE1 : 0x000000C0E10FF558 : 0x00007FF7E9318D7E
+      Refferal ID: 500-24216-14666
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x0E970 - Compiled Mon Jan 20 13:07:06 2025 local time (1737378428 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 21912 : 0x00007FF7653F2DE1 : 0x000000E6A52FF828 : 0x00007FF7653F8B87
+      Refferal ID: 500-21912-19267
+Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 17104 : 0x00007FF6A34E2DE1 : 0x000000C079BBF628 : 0x00007FF6A34E8917
+      Refferal ID: 500-17104-19904
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x01890 - Compiled Mon Jan 20 13:37:54 2025 local time (1737380275 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 8880 : 0x00007FF6E7562DE1 : 0x00000036E8EFF388 : 0x00007FF6E75688E7
+      Refferal ID: 500-8880-20168
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x01A9A - Compiled Mon Jan 20 13:38:34 2025 local time (1737380355 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 22796 : 0x00007FF7AB6D2DE1 : 0x00000085C4AFF4D8 : 0x00007FF7AB6D88E7
+      Refferal ID: 500-22796-20371
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x01C36 - Compiled Mon Jan 20 13:40:18 2025 local time (1737380418 unix time) with MSC Version 19.42.4435Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 25140 : 0x00007FF620632DE1 : 0x000000CC6C73F4A8 : 0x00007FF6206388E7
+      Refferal ID: 500-25140-20586
+Fatal exit for SomeTerminalGame Version 1.7.9.1-test codename "Rampant" build 0x01DE4 - Compiled Mon Jan 20 13:41:24 2025 local time (1737380484 unix time) with MSC Version 19.42.4435

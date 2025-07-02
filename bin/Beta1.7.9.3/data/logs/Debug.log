@@ -1,0 +1,28 @@
+1/25/2025 20:23:27[logT:OUT]     : Stack begin
+1/25/2025 20:23:27[logT:OUT]     : SomeTerminalGame Version 1.7.9.2-test codename "Foxtrot" build 0x0917C - Compiled Sat Jan 25 20:00:12 2025 local time (1737836561 unix time) with MSC Version 19.42.4435
+1/25/2025 20:23:27[logT:OUT]     : registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="02"
+1/25/2025 20:23:27[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+1/25/2025 20:23:27[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+1/25/2025 20:23:27[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+1/25/2025 20:23:29[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+1/25/2025 20:23:29[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+1/25/2025 20:23:32[logT:OUT]     : registry: set REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+1/25/2025 20:25:10[logT:INTURRUPT]     : Recived signal inturrupt: SIGTERM
+1/25/2025 20:25:10[logT:OUT]     : Stack end
+
+1/25/2025 20:29:7[logT:OUT]     : Stack begin
+1/25/2025 20:29:7[logT:OUT]     : SomeTerminalGame Version 1.7.9.2-test codename "Foxtrot" build 0x09B2E - Compiled Sat Jan 25 20:28:48 2025 local time (1737836941 unix time) with MSC Version 19.42.4435
+1/25/2025 20:29:7[logT:OUT]     : registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+1/25/2025 20:29:7[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+1/25/2025 20:29:7[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+1/25/2025 20:29:7[logT:OUT]     : registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+1/25/2025 20:29:7[logT:OUT]     : Startup finished!
+1/25/2025 20:29:30[logT:OUT]     : starting game loop
+1/25/2025 20:30:0[logT:OUT]     : starting game loop
+1/25/2025 20:30:3[logT:OUT]     : starting game loop
+1/25/2025 20:30:6[logT:OUT]     : start game loop
+1/25/2025 20:30:37[logT:OUT]     : threads/Enemy attempting remoteCommandExec
+1/25/2025 20:30:59[logT:FATAL]     : Fatal error initated. See FATAL.log for more information.
+1/25/2025 20:31:11[logT:INTURRUPT]     : Recived signal inturrupt: SIGTERM
+1/25/2025 20:31:12[logT:OUT]     : Stack end
+

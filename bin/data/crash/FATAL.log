@@ -1,0 +1,475 @@
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 8428 : 0x00007FF6996C2F7D : 0x000000399E2FF318 : 0x00007FF6996DB11A
+      Refferal ID: 500-8428-24188
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 14764 : 0x00007FF7F7E0375D : 0x000000B8800FDBF8 : 0x00007FF7F7E11B52
+      Refferal ID: 500-14764-31306
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 25168 : 0x00007FF73A9A373D : 0x000000ABB1ACAA18 : 0x00007FF73A9B1B32
+      Refferal ID: 500-25168-674
+Fatal error initiated with reason of: HELPER_SEEK_FAILURE (0x000000001).
+      Technical information: 11736 : 0x00007FF73A9A373D : 0x000000EF755CF3F8 : 0x00007FF73A9B1E02
+      Refferal ID: 500-11736-1457
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 22192 : 0x00007FF66017373D : 0x00000061D27FF168 : 0x00007FF66018B40A
+      Refferal ID: 500-22192-2333
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 2620 : 0x00007FF66017373D : 0x00000018A712F578 : 0x00007FF66018B40A
+      Refferal ID: 500-2620-2395
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 14776 : 0x00007FF60174372D : 0x000000D12B4D2BA8 : 0x00007FF6017491A0
+      Refferal ID: 500-14776-32085
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 26128 : 0x00007FF60174372D : 0x00000072B9C427A8 : 0x00007FF6017491A0
+      Refferal ID: 500-26128-32153
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 7248 : 0x00007FF683E7373D : 0x0000007D6A492B68 : 0x00007FF683E791B0
+      Refferal ID: 500-7248-32496
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 4944 : 0x00007FF76E93374D : 0x000000BBFB672868 : 0x00007FF76E9391C0
+      Refferal ID: 500-4944-32653
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 25892 : 0x00007FF70516374D : 0x000000A2952624E8 : 0x00007FF7051691C0
+      Refferal ID: 500-25892-32735
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 11508 : 0x00007FF61DB7374D : 0x000000BC5B212868 : 0x00007FF61DB791C0
+      Refferal ID: 500-11508-58
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 2984 : 0x00007FF7A7C2374D : 0x000000CCE58326A8 : 0x00007FF7A7C291C0
+      Refferal ID: 500-2984-143
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 20356 : 0x00007FF62CFF375D : 0x00000054A8414A68 : 0x00007FF62CFF91D0
+      Refferal ID: 500-20356-427
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 25472 : 0x00007FF73C61375D : 0x0000007FAC304BA8 : 0x00007FF73C6191D0
+      Refferal ID: 500-25472-476
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 10892 : 0x00007FF7C4CA375D : 0x000000012D2C49E8 : 0x00007FF7C4CA91D0
+      Refferal ID: 500-10892-603
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 24964 : 0x00007FF7C4CA375D : 0x000000EA51484A68 : 0x00007FF7C4CA91D0
+      Refferal ID: 500-24964-620
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 24424 : 0x00007FF7BF40374D : 0x0000009DE10F4C68 : 0x00007FF7BF4091C0
+      Refferal ID: 500-24424-711
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 9240 : 0x00007FF64DF8374D : 0x0000006E82AE4E68 : 0x00007FF64DF891C0
+      Refferal ID: 500-9240-796
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 4152 : 0x00007FF6DA3C375D : 0x0000009B730D4EE8 : 0x00007FF6DA3C91D0
+      Refferal ID: 500-4152-953
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 10880 : 0x00007FF7C07F377D : 0x00000072EBC747E8 : 0x00007FF7C07F91F0
+      Refferal ID: 500-10880-1188
+Fatal error initiated with reason of: test (0x000000000).
+      Technical information: 7044 : 0x00007FF7E236377D : 0x000000885595F288 : 0x00007FF7E2371439
+      Refferal ID: 500-7044-3102
+Fatal error initiated with reason of: test (0x000000000).
+      Technical information: 24324 : 0x00007FF759B5377D : 0x000000D89CD4F6E8 : 0x00007FF759B61445
+      Refferal ID: 500-24324-3386
+Fatal error initiated with reason of: test (0x000000000).
+      Technical information: 2624 : 0x00007FF6CE97377D : 0x0000006CC0F0F568 : 0x00007FF6CE981445
+      Refferal ID: 500-2624-3467
+Fatal error initiated with reason of: test (0x000000000).
+      Technical information: 2584 : 0x00007FF73291377D : 0x000000E28DAFF198 : 0x00007FF732921445
+      Refferal ID: 500-2584-3578
+Fatal error initiated with reason of: test (0x000000000).
+      Technical information: 9980 : 0x00007FF7EDB5377D : 0x000000C053EFF458 : 0x00007FF7EDB61445
+      Refferal ID: 500-9980-3836
+Fatal error initiated with reason of: test (0x000000000).
+      Technical information: 12368 : 0x00007FF6CF08377D : 0x0000006B9FF5F4E8 : 0x00007FF6CF091445
+      Refferal ID: 500-12368-3895
+Fatal error initiated with reason of: test (0x000000000).
+      Technical information: 17844 : 0x00007FF734C8377D : 0x000000D544D2F278 : 0x00007FF734C91445
+      Refferal ID: 500-17844-3996
+Fatal error initiated with reason of: DEBUG_FORCE_FATAL (0x000000003).
+      Technical information: 23220 : 0x00007FF79A4B377D : 0x0000007355965618 : 0x00007FF79A4C0AA6
+      Refferal ID: 500-23220-4617
+Fatal error initiated with reason of: DEBUG_FORCE_FATAL (0x000000003).
+      Technical information: 10924 : 0x00007FF62B41377D : 0x000000FE044E5438 : 0x00007FF62B420AA6
+      Refferal ID: 500-10924-4741
+Fatal error initiated with reason of: DEBUG_FORCE_FATAL (0x000000003).
+      Technical information: 19400 : 0x00007FF64DC7377D : 0x000000791C4E5158 : 0x00007FF64DC80AA6
+      Refferal ID: 500-19400-4881
+Fatal error initiated with reason of: DEBUG_FORCE_FATAL (0x000000003).
+      Technical information: 13668 : 0x00007FF6F07B377D : 0x0000006AAC9251A8 : 0x00007FF6F07C0AA6
+      Refferal ID: 500-13668-5035
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 16624 : 0x00007FF6C0E1377D : 0x000000EA234FF228 : 0x00007FF6C0E21413
+      Refferal ID: 500-16624-7226
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 23280 : 0x00007FF6C856377D : 0x000000941EAFF358 : 0x00007FF6C857141F
+      Refferal ID: 500-23280-7265
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 936 : 0x00007FF72975377D : 0x000000D49E0FF258 : 0x00007FF72976141F
+      Refferal ID: 500-936-7337
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 22808 : 0x00007FF66806377D : 0x0000007C800FF5C8 : 0x00007FF66807142B
+      Refferal ID: 500-22808-7412
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 25292 : 0x00007FF650E2377D : 0x0000007F5ACFF7B8 : 0x00007FF650E3142B
+      Refferal ID: 500-25292-7491
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 19776 : 0x00007FF648EF377D : 0x000000124ECFF2F8 : 0x00007FF648F0141F
+      Refferal ID: 500-19776-7589
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 19772 : 0x00007FF75943377D : 0x00000021C7AFF868 : 0x00007FF75944141F
+      Refferal ID: 500-19772-7677
+Fatal error initiated with reason of: hi (0x000000000).
+      Technical information: 21372 : 0x00007FF763F0377D : 0x00000004F62FF208 : 0x00007FF763F1141F
+      Refferal ID: 500-21372-7752
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 10936 : 0x00007FF75FD3377D : 0x000000CFC277E7F8 : 0x00007FF75FD41AF2
+      Refferal ID: 500-10936-8232
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 10532 : 0x00007FF774BA377D : 0x00000031271AE878 : 0x00007FF774BB1AF2
+      Refferal ID: 500-10532-8385
+Fatal error initiated with reason of: EXPERIMENTAL_FUNC_BAD_RETURN (0x000000037).
+      Technical information: 21676 : 0x00007FF715BE377D : 0x000000AF142FF678 : 0x00007FF715BF1481
+      Refferal ID: 500-21676-8650
+Fatal error initiated with reason of: EXPERIMENTAL_FUNC_BAD_RETURN (0x000000037).
+      Technical information: 26184 : 0x00007FF715BE377D : 0x000000BFF733F8A8 : 0x00007FF715BF1481
+      Refferal ID: 500-26184-8745
+Fatal error initiated with reason of: EXPERIMENTAL_FUNC_BAD_RETURN (0x000000037).
+      Technical information: 7996 : 0x00007FF729F4377D : 0x000000C27CB1F228 : 0x00007FF729F51481
+      Refferal ID: 500-7996-8810
+Fatal error initiated with reason of: EXPERIMENTAL_FUNC_BAD_RETURN (0x000000037).
+      Technical information: 25624 : 0x00007FF620EC377D : 0x0000005FFFEFF0F8 : 0x00007FF620ED1481
+      Refferal ID: 500-25624-9319
+Fatal error initiated with reason of: EXPERIMENTAL_FUNC_BAD_RETURN (0x000000037).
+      Technical information: 26472 : 0x00007FF6E690377D : 0x000000DC31D6F588 : 0x00007FF6E6911481
+      Refferal ID: 500-26472-9430
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 15512 : 0x00007FF7F60E377D : 0x00000023412A4AA8 : 0x00007FF7F60E91F0
+      Refferal ID: 500-15512-9610
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 16780 : 0x00007FF6252E3CCD : 0x0000003FC67FEB68 : 0x00007FF6252E9670
+      Refferal ID: 500-16780-27587
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 14864 : 0x00007FF67C0C3D8D : 0x000000DBA82F4AE8 : 0x00007FF67C0C9740
+      Refferal ID: 500-14864-7019
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 17132 : 0x00007FF6821F3DDD : 0x000000444DBFE828 : 0x00007FF6821F9790
+      Refferal ID: 500-17132-15696
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 12780 : 0x00007FF6821F3DDD : 0x00000018BC6FE9E8 : 0x00007FF6821F9790
+      Refferal ID: 500-12780-17685
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 21168 : 0x00007FF761733DDD : 0x0000002CFA0FE1B8 : 0x00007FF761742492
+      Refferal ID: 500-21168-2775
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 21976 : 0x00007FF6F44E3DDD : 0x000000130F14E138 : 0x00007FF6F44F24A2
+      Refferal ID: 500-21976-2905
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 25232 : 0x00007FF69A613DDD : 0x00000072050FDBF8 : 0x00007FF69A6224A2
+      Refferal ID: 500-25232-3140
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 24928 : 0x00007FF76DD53DDD : 0x0000006BD798E338 : 0x00007FF76DD624A2
+      Refferal ID: 500-24928-3176
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 23964 : 0x00007FF644673DDD : 0x000000032C8FE038 : 0x00007FF6446824A2
+      Refferal ID: 500-23964-3369
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 23412 : 0x00007FF730163DDD : 0x000000AC344FDEF8 : 0x00007FF7301724A2
+      Refferal ID: 500-23412-3532
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 18392 : 0x00007FF6848D3DDD : 0x000000ECBD0FE338 : 0x00007FF6848E24A2
+      Refferal ID: 500-18392-3555
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 20552 : 0x00007FF77E0C3DDD : 0x000000248D74E478 : 0x00007FF77E0D24A2
+      Refferal ID: 500-20552-3633
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 25260 : 0x00007FF6B3343DDD : 0x000000822750E0F8 : 0x00007FF6B33524A2
+      Refferal ID: 500-25260-3787
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 23964 : 0x00007FF7ACB73DDD : 0x0000001BD3DFE078 : 0x00007FF7ACB824A2
+      Refferal ID: 500-23964-4662
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 23020 : 0x00007FF76A6E3DDD : 0x000000901616E3B8 : 0x00007FF76A6F24D2
+      Refferal ID: 500-23020-5025
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 19832 : 0x00007FF71C643DDD : 0x000000139B15DF78 : 0x00007FF71C6524A2
+      Refferal ID: 500-19832-5305
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 24324 : 0x00007FF7EE533DDD : 0x0000000C040FE038 : 0x00007FF7EE542512
+      Refferal ID: 500-24324-5802
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 22936 : 0x00007FF7C3503DDD : 0x00000094D14FDEB8 : 0x00007FF7C3512512
+      Refferal ID: 500-22936-5854
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 19200 : 0x00007FF7656A3DDD : 0x000000A8BD6FE438 : 0x00007FF7656B2522
+      Refferal ID: 500-19200-5923
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 6692 : 0x00007FF6FF2E3DDD : 0x000000B111BEE478 : 0x00007FF6FF2F2522
+      Refferal ID: 500-6692-6021
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 22316 : 0x00007FF6E25F3DDD : 0x000000DFFD0FDF38 : 0x00007FF6E2602502
+      Refferal ID: 500-22316-6641
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 24320 : 0x00007FF676F43DDD : 0x000000E188AFE2F8 : 0x00007FF676F52502
+      Refferal ID: 500-24320-6857
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 7708 : 0x00007FF6807A418D : 0x0000009DEDFFE078 : 0x00007FF6807B2402
+      Refferal ID: 500-7708-8493
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 9084 : 0x00007FF6E704418D : 0x000000971D0FE578 : 0x00007FF6E7052422
+      Refferal ID: 500-9084-8979
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 25268 : 0x00007FF7F4AF415D : 0x000000AC184E5548 : 0x00007FF7F4B03B6B
+      Refferal ID: 500-25268-13466
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 5640 : 0x00007FF79800415D : 0x000000B2734E5608 : 0x00007FF798013B77
+      Refferal ID: 500-5640-13610
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 22808 : 0x00007FF79800415D : 0x000000F08E8E5358 : 0x00007FF798013B77
+      Refferal ID: 500-22808-14015
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 22432 : 0x00007FF7D3C9415D : 0x000000E82ACE52E8 : 0x00007FF7D3CA3B97
+      Refferal ID: 500-22432-14387
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 3348 : 0x00007FF73A36415D : 0x000000B5C60E5288 : 0x00007FF73A373B97
+      Refferal ID: 500-3348-14527
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 7080 : 0x00007FF634EE415D : 0x000000BC04EE5808 : 0x00007FF634EF3B97
+      Refferal ID: 500-7080-14720
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 11692 : 0x00007FF76D0B415D : 0x0000006CBDDB5608 : 0x00007FF76D0C3B97
+      Refferal ID: 500-11692-15017
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 23024 : 0x00007FF783D6415D : 0x0000000B3B7C5078 : 0x00007FF783D73B97
+      Refferal ID: 500-23024-16229
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 23456 : 0x00007FF6098C415D : 0x000000472E0E5338 : 0x00007FF6098D3B97
+      Refferal ID: 500-23456-22731
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 22824 : 0x00007FF7692F43DD : 0x000000C15814F6C8 : 0x00007FF76930BE1B
+      Refferal ID: 500-22824-29389
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 26312 : 0x00007FF7692F43DD : 0x000000D5F0AFF818 : 0x00007FF76930BE1B
+      Refferal ID: 500-26312-29803
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 24428 : 0x00007FF7692F43DD : 0x0000004FDC36F458 : 0x00007FF76930BE1B
+      Refferal ID: 500-24428-7
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 27592 : 0x00007FF7692F43DD : 0x000000A56378B808 : 0x00007FF769303C57
+      Refferal ID: 500-27592-232
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 22628 : 0x00007FF7692F43DD : 0x00000073E7814928 : 0x00007FF7692F9DC0
+      Refferal ID: 500-22628-507
+Fatal error initiated with reason of: EXPERIMENTAL_FUNC_BAD_RETURN (0x000000037).
+      Technical information: 3100 : 0x00007FF76E7143DD : 0x000000B4321BF838 : 0x00007FF76E721E31
+      Refferal ID: 500-3100-2394
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 24956 : 0x00007FF61C4143DD : 0x00000001000FF2C8 : 0x00007FF61C421E31
+      Refferal ID: 500-24956-2995
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 28320 : 0x00007FF710D443DD : 0x0000002B6A6FF418 : 0x00007FF710D51E25
+      Refferal ID: 500-28320-3057
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 26936 : 0x00007FF799C243DD : 0x000000368B1CF398 : 0x00007FF799C31E25
+      Refferal ID: 500-26936-3207
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 23364 : 0x00007FF6BB2443DD : 0x000000EB8279F488 : 0x00007FF6BB251E25
+      Refferal ID: 500-23364-3322
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 24348 : 0x00007FF648F843DD : 0x000000E68C6FF7E8 : 0x00007FF648F91E25
+      Refferal ID: 500-24348-3387
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 24376 : 0x00007FF76A6843DD : 0x0000006EAA10F218 : 0x00007FF76A691E25
+      Refferal ID: 500-24376-3606
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 15344 : 0x00007FF6524543DD : 0x00000047584FF4E8 : 0x00007FF652461E25
+      Refferal ID: 500-15344-3841
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 27612 : 0x00007FF758D043DD : 0x00000062EE0FF238 : 0x00007FF758D11E25
+      Refferal ID: 500-27612-4341
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 7820 : 0x00007FF77AE343DD : 0x000000CD7717F418 : 0x00007FF77AE41E25
+      Refferal ID: 500-7820-4403
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 8284 : 0x00007FF6AC5F43DD : 0x000000EC8237F408 : 0x00007FF6AC601E45
+      Refferal ID: 500-8284-2416
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 2632 : 0x00007FF7708243DD : 0x000000A1C6EFF1C8 : 0x00007FF770831E85
+      Refferal ID: 500-2632-3039
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 2884 : 0x00007FF6B32843DD : 0x0000008CC557F638 : 0x00007FF6B3291E85
+      Refferal ID: 500-2884-3137
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 19176 : 0x00007FF7528443DD : 0x00000028674FF838 : 0x00007FF752851E85
+      Refferal ID: 500-19176-3235
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 16632 : 0x00007FF6950F4402 : 0x00000052D8EFF718 : 0x00007FF695101ECC
+      Refferal ID: 500-16632-3722
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 10936 : 0x00007FF738F44402 : 0x000000145FB2F598 : 0x00007FF738F51F4C
+      Refferal ID: 500-10936-4907
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 20376 : 0x00007FF6D6944402 : 0x0000002837B5F198 : 0x00007FF6D6951F4C
+      Refferal ID: 500-20376-5022
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 17388 : 0x00007FF6AB6A4402 : 0x000000E999EFF338 : 0x00007FF6AB6B1F4C
+      Refferal ID: 500-17388-5162
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 10128 : 0x00007FF7FC6F4402 : 0x000000DD732FF5B8 : 0x00007FF7FC701F4C
+      Refferal ID: 500-10128-5201
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 21076 : 0x00007FF66B444402 : 0x000000311ADCF418 : 0x00007FF66B451F4C
+      Refferal ID: 500-21076-5528
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 18244 : 0x00007FF799044412 : 0x000000DE4FEFF878 : 0x00007FF799051F5C
+      Refferal ID: 500-18244-5972
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 3056 : 0x00007FF799044412 : 0x00000002D20FF268 : 0x00007FF799051F5C
+      Refferal ID: 500-3056-5988
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 16872 : 0x00007FF77A7F4412 : 0x000000DBF10FF2A8 : 0x00007FF77A801F5C
+      Refferal ID: 500-16872-6044
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 12660 : 0x00007FF6AC164412 : 0x000000DC293BF358 : 0x00007FF6AC171F5C
+      Refferal ID: 500-12660-6298
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 11148 : 0x00007FF79A2F4412 : 0x000000D3147BF598 : 0x00007FF79A30BFA5
+      Refferal ID: 500-11148-6795
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 416 : 0x00007FF79A2F4412 : 0x00000046C00FF1C8 : 0x00007FF79A30BFA5
+      Refferal ID: 500-416-6873
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 3724 : 0x00007FF629724412 : 0x000000A838AFF868 : 0x00007FF62973BFB5
+      Refferal ID: 500-3724-6896
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 9204 : 0x00007FF6465C4412 : 0x000000BA14CFF638 : 0x00007FF6465DBFB5
+      Refferal ID: 500-9204-7043
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 10996 : 0x00007FF6A2A54412 : 0x000000DD47DCF5D8 : 0x00007FF6A2A6BFB5
+      Refferal ID: 500-10996-7317
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 5028 : 0x00007FF69E334412 : 0x00000038DC8FF4D8 : 0x00007FF69E341F68
+      Refferal ID: 500-5028-7461
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 18668 : 0x00007FF7D49B4412 : 0x000000C41E50F0E8 : 0x00007FF7D49C1F68
+      Refferal ID: 500-18668-7517
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 3604 : 0x00007FF6D9AB4412 : 0x000000CFD60FF5C8 : 0x00007FF6D9AC1F68
+      Refferal ID: 500-3604-7791
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 12672 : 0x00007FF7DE874412 : 0x000000584FD4F3B8 : 0x00007FF7DE881F68
+      Refferal ID: 500-12672-8124
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 2332 : 0x00007FF7E7934412 : 0x000000A78E8FF2F8 : 0x00007FF7E7941F68
+      Refferal ID: 500-2332-8170
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 10448 : 0x00007FF76DAA4412 : 0x000000E563F9F408 : 0x00007FF76DAB1F68
+      Refferal ID: 500-10448-8219
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 13532 : 0x00007FF786EC4412 : 0x000000FD2959F478 : 0x00007FF786ED1F68
+      Refferal ID: 500-13532-8255
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 17304 : 0x00007FF70DF24412 : 0x000000E843DCF578 : 0x00007FF70DF3BFC5
+      Refferal ID: 500-17304-8290
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 23244 : 0x00007FF70DF24412 : 0x0000006DC4EFF248 : 0x00007FF70DF31F68
+      Refferal ID: 500-23244-9757
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 8380 : 0x00007FF70DF24412 : 0x000000E8AB0FF1E8 : 0x00007FF70DF31F68
+      Refferal ID: 500-8380-9851
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 15024 : 0x00007FF70DF24412 : 0x0000006168C14BE8 : 0x00007FF70DF29DE7
+      Refferal ID: 500-15024-9976
+Fatal error initiated with reason of: PROTECTED_FUNCTION_BAD_RETURN (0x000000037).
+      Technical information: 10116 : 0x00007FF7D6E04412 : 0x00000095530FF4E8 : 0x00007FF7D6E11F68
+      Refferal ID: 500-10116-23599
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 8816 : 0x00007FF7893F4412 : 0x00000088D3CB4DA8 : 0x00007FF7893F9DE7
+      Refferal ID: 500-8816-17800
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 5324 : 0x00007FF7893F4412 : 0x000000C477C64EE8 : 0x00007FF7893F9DE7
+      Refferal ID: 500-5324-18028
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 5172 : 0x00007FF7893F4412 : 0x000000A3504E5038 : 0x00007FF789403E1E
+      Refferal ID: 500-5172-19148
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 8968 : 0x00007FF7893F4412 : 0x0000005E450E50E8 : 0x00007FF789403E1E
+      Refferal ID: 500-8968-19233
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 4152 : 0x00007FF70E564412 : 0x00000073F1F55108 : 0x00007FF70E573E4D
+      Refferal ID: 500-4152-19534
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 10044 : 0x00007FF70E564412 : 0x00000076873854F8 : 0x00007FF70E573E4D
+      Refferal ID: 500-10044-19592
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 24956 : 0x00007FF6A7804412 : 0x0000009B704E5708 : 0x00007FF6A7813E4D
+      Refferal ID: 500-24956-25166
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 8728 : 0x00007FF7AEE94412 : 0x0000004E36CCB4B8 : 0x00007FF7AEEA2649
+      Refferal ID: 500-8728-11342
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 21964 : 0x00007FF60C4C4412 : 0x000000BF9E135008 : 0x00007FF60C4D3E5D
+      Refferal ID: 500-21964-5111
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 21700 : 0x00007FF7354B4462 : 0x00000035005CD9B8 : 0x00007FF7354C2AC9
+      Refferal ID: 500-21700-15356
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 4064 : 0x00007FF7354B4462 : 0x0000007602AFD6B8 : 0x00007FF7354C2AC9
+      Refferal ID: 500-4064-15467
+Fatal error initiated with reason of: REGISTRY_VALUE_READ_FAILURE (0x00000002D).
+      Technical information: 14600 : 0x00007FF6693E4462 : 0x000000C550CFF328 : 0x00007FF6693EAA7F
+      Refferal ID: 500-14600-18524
+Fatal error initiated with reason of: WINDOWS::UNKNOWN_ERROR (0x0C000000D).
+      Technical information: 22792 : 0x00007FF646F34462 : 0x000000950A9FE338 : 0x00007FF646F39EE7
+      Refferal ID: 500-22792-13869
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 19472 : 0x00007FF6B95C43C2 : 0x0000009AD31FE6A8 : 0x00007FF6B95C9E47
+      Refferal ID: 500-19472-20576
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 11148 : 0x00007FF6B95C43C2 : 0x000000F486DFEBA8 : 0x00007FF6B95C9E47
+      Refferal ID: 500-11148-20707
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 19956 : 0x00007FF6B95C43C2 : 0x00000082C8CFECA8 : 0x00007FF6B95C9E47
+      Refferal ID: 500-19956-21020
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 2308 : 0x00007FF6896C44A6 : 0x0000009BE06FD8F8 : 0x00007FF6896D30B9
+      Refferal ID: 500-2308-21761
+Fatal error initiated with reason of: called from a thread!
+ (0x000000000).
+      Technical information: 18152 : 0x00007FF78FCD4542 : 0x0000005F860FFDB8 : 0x00007FF78FCE4654
+      Refferal ID: 500-18152-13910
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 7836 : 0x00007FF6F7384580 : 0x000000BC826E54A8 : 0x00007FF6F7393453
+      Refferal ID: 500-7836-15549
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 14292 : 0x00007FF6DC814580 : 0x00000084A9D45568 : 0x00007FF6DC823453
+      Refferal ID: 500-14292-15836
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 11804 : 0x00007FF7F4F84580 : 0x0000001D022E5528 : 0x00007FF7F4F93453
+      Refferal ID: 500-11804-15885
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 23392 : 0x00007FF7D4814598 : 0x000000439DB7DD68 : 0x00007FF7D4823473
+      Refferal ID: 500-23392-1970
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 21452 : 0x00007FF7BDB24598 : 0x000000B4FB4FDBA8 : 0x00007FF7BDB33473
+      Refferal ID: 500-21452-5768
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 24000 : 0x00007FF7931D4598 : 0x00000031079A5008 : 0x00007FF7931E3473
+      Refferal ID: 500-24000-16749
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 9072 : 0x00007FF79FA84578 : 0x0000000615D2F868 : 0x00007FF79FA9D31A
+      Refferal ID: 500-9072-19143
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 24220 : 0x00007FF743F24578 : 0x00000079638FF7D8 : 0x00007FF743F3D31A
+      Refferal ID: 500-24220-19395
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 4416 : 0x00007FF66FA645B8 : 0x0000004767CFD7E8 : 0x00007FF66FA734B3
+      Refferal ID: 500-4416-17492
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 20128 : 0x00007FF6751B45B8 : 0x000000C34490D968 : 0x00007FF6751C34B3
+      Refferal ID: 500-20128-21253
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 18244 : 0x00007FF6DA1245B8 : 0x000000E41D0E5738 : 0x00007FF6DA1334B3
+      Refferal ID: 500-18244-7789
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 5696 : 0x00007FF6DA1245B8 : 0x000000A34E414BD8 : 0x00007FF6DA12A15E
+      Refferal ID: 500-5696-8240
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 22976 : 0x00007FF6BE0F45B8 : 0x000000A088F01928 : 0x00007FF6BE1034B3
+      Refferal ID: 500-22976-32389

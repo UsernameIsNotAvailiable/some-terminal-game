@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "winsock2.h": "c",
+        "cjson.h": "c",
+        "iphlpapi.h": "c",
+        "time.h": "c",
+        "stdio.h": "c",
+        "winhttp.h": "c"
+    }
+}

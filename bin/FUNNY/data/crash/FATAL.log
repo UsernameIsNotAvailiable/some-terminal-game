@@ -1,0 +1,6 @@
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 18216 : 0x00007FF67904312B : 0x0000005725E11578 : 0x00007FF679049449
+      Refferal ID: 500-18216-32423
+Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
+      Technical information: 11332 : 0x00007FF67904312B : 0x000000222C870F38 : 0x00007FF679049449
+      Refferal ID: 500-11332-32472
