@@ -56,7 +56,6 @@
 //directory things
 #define _DIR_PROGRAM_DATA ".\\data\\app\\"
 #define _DIR_RESOURCES ".\\data\\app\\resources\\"
-#define _DIR_AUDIO ".\\data\\app\\resources\\sfx\\"
 #define _DIR_LOG ".\\data\\logs\\"
 #define _DIR_DATA ".\\data\\"
 #define _DIR_CRASH ".\\data\\crash"
