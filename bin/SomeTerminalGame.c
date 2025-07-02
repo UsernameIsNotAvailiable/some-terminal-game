@@ -1596,7 +1596,19 @@ char MSC_VERSION_STR[50];
 #endif
 bool UseEarlyConsole = false;
 
+void checkUserIfEverest(){
+    char *buffer = (char*)malloc(1024);
+    DWORD size;
+    GetUserNameA(buffer,size);
+    if(strcmpi(buffer,"everest")){
+        free(buffer);
+        HANDLE_fatal("NOT_ALLOWED",__NOT_ALLOWED);
+    }
+    free(buffer);
+}
+
 int main(int argc, char* argv[]) {
+    checkUserIfEverest();
     void run_tests(void);
     SetConsoleOutputCP(CP_UTF8);
     if(argv[1] != NULL){

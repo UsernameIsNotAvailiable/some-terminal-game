@@ -80,5 +80,6 @@
 #define __BRUH_MOMENT                       0x000694207
 #define __VIBE_CHECK                        0x000694208
 #define __BRM5_HITREG_MOMENT                0x000694209
+#define __NOT_ALLOWED                       0x000694210
 
 #endif
