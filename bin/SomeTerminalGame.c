@@ -470,6 +470,11 @@ void signal_sigint(int sig){
     forceexit(__TERM_INTURRUPT);
 }
 
+void test(){
+    printf("test function!\n");
+    return;
+}
+
 void signal_sigterm(int sig){
     if(_DBG_DISABLE_SIGNAL){
         return;
