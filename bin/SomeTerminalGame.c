@@ -1205,7 +1205,6 @@ long long unsigned GetUnixEpochTime(){
 DWORD WINAPI Enemy(LPVOID lpParam){
     _stack_;
     thread_init(htEnemy);
-    LoadLibrary(_FILE_STGAPI_DLL);
     Enemyd.TimeUntilNextAttack = GetUnixEpochTime() + 90;
     while(1){
         if(GetUnixEpochTime() == Enemyd.TimeUntilNextAttack && Enemyd.isAttackAllowed){
@@ -1221,7 +1220,6 @@ DWORD WINAPI Enemy(LPVOID lpParam){
 DWORD WINAPI BkgProcessing(LPVOID lpPARAM){
     _stack_;
     thread_init(htBkgProcessing);
-    LoadLibrary(_FILE_STGAPI_DLL);
     thread_BkgProcessing_active = true;
     time_t now;
 
