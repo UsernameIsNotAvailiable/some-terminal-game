@@ -3,3 +3,4 @@
 3 - this is mine
 4 - idk
 5 - i forgot
+6 - too lazy to make comments or something lol
