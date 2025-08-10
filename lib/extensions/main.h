@@ -13,9 +13,6 @@
 
 #pragma message("===> Building file "__FILE__)
 
-//functions must have "lua" in the name to denote it's for
-//the extension api
-
 
 int luaApiTest(lua_State *state){
     _stack_;

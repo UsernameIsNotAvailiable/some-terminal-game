@@ -473,3 +473,6 @@ Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C000
 Fatal error initiated with reason of: SEGMENT_VIOLATION (0x000000012).
       Technical information: 22976 : 0x00007FF6BE0F45B8 : 0x000000A088F01928 : 0x00007FF6BE1034B3
       Refferal ID: 500-22976-32389
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 31968 : 0x00007FF6CD1645B8 : 0x0000007F8E084798 : 0x00007FF6CD16A15E
+      Refferal ID: 500-31968-29338
