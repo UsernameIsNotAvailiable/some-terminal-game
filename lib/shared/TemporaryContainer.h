@@ -47,6 +47,7 @@ _temporary_content_container_data TempContentData;
 void LogAction(int actionClass){
     _stack_;
     _check_bp;
+    _WARN_DEPERCATED();
     if(!sessiond.LogTemporaryContainerActions){ //verify if the user want's to log temp cont actions
         return; //return because no
     }
@@ -74,6 +75,7 @@ void LogAction(int actionClass){
 }
 
 int destoryTemporaryContentContainer(){
+    _WARN_DEPERCATED();
     DeleteFile(_FILE_TEMP);
     LogAction(TEMP_DESTROY);
     return 0;
@@ -82,6 +84,7 @@ int destoryTemporaryContentContainer(){
 int createTemporaryContentContainer(){
     _stack_;
     _check_bp;
+    _WARN_DEPERCATED();
     FILE *tmp;
     if(access(_FILE_TEMP, F_OK) == 0){
         destoryTemporaryContentContainer();
@@ -99,7 +102,7 @@ int createTemporaryContentContainer(){
 int writeTemporaryContent(char msg[256]){
     _stack_;
     _check_bp;
-
+    _WARN_DEPERCATED();
     if(!TempContentData.exist){
         createTemporaryContentContainer();
     }
@@ -114,7 +117,7 @@ int writeTemporaryContent(char msg[256]){
 char *queryTemporaryContent(){
     _stack_;
     _check_bp;
-
+    _WARN_DEPERCATED();
     char *buffer = "placeholder";
     if(!TempContentData.exist){
         createTemporaryContentContainer();

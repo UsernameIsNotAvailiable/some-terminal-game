@@ -156,6 +156,8 @@ typedef struct{
     char _verinfo[256];
     int build;
     DWORD mainThreadId;
+    HANDLE hStdio;
+    HANDLE hStdin;
 
     void *baseAddress;
     void *entryAddress; // main()

@@ -52,6 +52,12 @@
 
 #define HANDLE_errormessage(msg,err) __impl_HANDLE_errormessage(msg,err,__LINE__,__FUNCTION__,strip_to_last_slash(__FILE__))
 
+int __impl_warn_depercated(const char *file,const char *func){
+    printf("_WARN_DEPERCATED: function %s/%s() is depercated!\n",file,func);
+    return 0;
+}
+
+#define _WARN_DEPERCATED() __impl_warn_depercated(strip_to_last_slash(__FILE__),__FUNCTION__)
 
 //directory things
 #define _DIR_PROGRAM_DATA ".\\data\\app\\"
@@ -197,6 +203,7 @@ static char protectedFunctions[50][50] = {
         return ret; \
     } \
     int _real_protected_##rfname(const char *fname) \
+
 
 PROTECTED(protected_function_test){
     printf("protected_function_test: it work!\n");
@@ -507,7 +514,7 @@ int signal_init(){
     if(_DBG_DISABLE_SIGNAL){
         return 0;
     }
-    signal(SIGSEGV, signal_sigsegv);
+    //signal(SIGSEGV, signal_sigsegv);
     signal(SIGABRT, signal_sigabrt);
     signal(SIGABRT_COMPAT,signal_sigabrt);
     signal(SIGILL, signal_sigill);
@@ -563,7 +570,7 @@ stack_data stackd = {
     .addrCnt = 0,
 };
 
-
+#define MAX_STACK 25+1
 bool OverrideStackHalted = false;
 int addStack(char call[1024]){
     if(stackd.stackHalted && !OverrideStackHalted){
@@ -577,17 +584,16 @@ int addStack(char call[1024]){
     }
     free(parsed);
     parsed = NULL;
+
     signal_init();
-    if(stackd.symbolCnt >= stackd.warnSize){
-        if(settings.isDebug){
-            printf("debug: stackd.warnSize has been reached.");
-        }
-        flushStack();
-    }
-    stack_addr[stackd.addrCnt] = _ReturnAddress();
-    strcpy(stack[stackd.symbolCnt], call);
-    stackd.symbolCnt += 1;
-    stackd.addrCnt += 1;
+
+    int idx = stackd.symbolCnt % MAX_STACK;
+
+    stack_addr[idx] = _ReturnAddress();
+    strcpy(stack[idx],call);
+
+    stackd.symbolCnt++;
+
     if(OverrideStackHalted){
         OverrideStackHalted = false;
     }
@@ -653,7 +659,7 @@ int dumpStack(){
     printf("Stack trace (most recent calls):\n");
     printf(" [STACK LOCATION] -> [MEMORY LOCATION] -> [OPERATION]\n");
     for(int i = 0; i < sizeof(stack)/sizeof(stack[0]); i++){
-        if(strlen(stack[i]) < 1 ){
+        if(strlen(stack[i]) < 1 ){ 
             continue;
         }
         printf("  %03i                 0x%p   %s\n", i,stack_addr[i],stack[i]);
@@ -884,6 +890,7 @@ network netMain = {
     true,
     true,
 };
+
 device TerminalZ = {
     "TerminalZ",
     __HWID_DISK0,
@@ -897,21 +904,6 @@ device TerminalZ = {
     true,
     true,
     false,
-};
-
-device djt = {
-    "DONALD TRUMP",
-    __HWID_DJT,
-    "2024",
-    "/dev/sda3",
-    "DJT",
-    0,
-    true,
-    true,
-    false,
-    true,
-    false,
-    true,
 };
 
 device secret_credits = {
@@ -1222,15 +1214,66 @@ DWORD WINAPI Enemy(LPVOID lpParam){
     }
 }
 
+void copy_and_rewrite(COORD size) {
+    SMALL_RECT rect;
+    rect.Left   = 0;
+    rect.Top    = 0;
+    rect.Right  = size.X - 1;
+    rect.Bottom = size.Y - 1;
+
+    COORD bufferSize = size;
+    COORD bufferCoord = {0, 0};
+
+    int cells = size.X * size.Y;
+    CHAR_INFO *buffer = (CHAR_INFO*)malloc(sizeof(CHAR_INFO) * cells);
+    if (!buffer) return;
+
+    // Read current screen
+    if (!ReadConsoleOutput(sessiond.hStdio, buffer, bufferSize, bufferCoord, &rect)) {
+        free(buffer);
+        return;
+    }
+
+    // Clear
+    system("cls");
+
+    // Rewrite screen contents
+    rect.Left   = 0;
+    rect.Top    = 0;
+    rect.Right  = size.X - 1;
+    rect.Bottom = size.Y - 1;
+    WriteConsoleOutput(sessiond.hStdio, buffer, bufferSize, bufferCoord, &rect);
+
+    free(buffer);
+}
+
 DWORD WINAPI BkgProcessing(LPVOID lpPARAM){
     _stack_;
     thread_init(htBkgProcessing);
     thread_BkgProcessing_active = true;
     time_t now;
 
+    DWORD cNumRead;
+    INPUT_RECORD irInBuf[128];
+
     int i = 0;
     while(1){ //do stuff in a loop
         sleep(150); //prevent excess usage
+
+        //resize
+        if(!ReadConsoleInputA(sessiond.hStdin,irInBuf,128,&cNumRead)){
+            pthread("Failed to run ReadConsoleInputA!\n");
+        }
+
+        for(DWORD i = 0; i < cNumRead; i++){
+            if(irInBuf[i].EventType == WINDOW_BUFFER_SIZE_EVENT){
+                COORD size = irInBuf[i].Event.WindowBufferSizeEvent.dwSize;
+
+                system("cls");
+                copy_and_rewrite(size);
+                //pthread("window was resized to: %d cols x %d rows\n",size.X,size.Y);
+            }
+        }
 
         //tzss
         if(Enemyd.Attackd.AttackStatus){ //attack in action
@@ -1596,21 +1639,10 @@ char MSC_VERSION_STR[50];
 #endif
 bool UseEarlyConsole = false;
 
-void checkUserIfEverest(){
-    char *buffer = (char*)malloc(1024);
-    DWORD size;
-    GetUserNameA(buffer,size);
-    if(strcmpi(buffer,"everest")){
-        free(buffer);
-        HANDLE_fatal("NOT_ALLOWED",__NOT_ALLOWED);
-    }
-    free(buffer);
-}
-
 int main(int argc, char* argv[]) {
-    checkUserIfEverest();
-    void run_tests(void);
     SetConsoleOutputCP(CP_UTF8);
+    SetUnhandledExceptionFilter(ExceptionFilter);
+    void run_tests(void);
     if(argv[1] != NULL){
         if(strcmpi(argv[1],"--help") == 0){
             printf("SomeTerminalGame / Command Line Arguments\n");
@@ -1653,7 +1685,6 @@ int main(int argc, char* argv[]) {
         MSC_VERSION_STR);
     strcpy(sessiond._verinfo,temp3);
     free(temp3);
-    SetUnhandledExceptionFilter(ExceptionFilter);
     signal_init();
     _check_bp;
     _stack_;
@@ -1680,8 +1711,18 @@ int main(int argc, char* argv[]) {
     for(int i =0; i < argc;i++){
         printf("%s ",argv[i]);
     }
-
+    printf("\n");
     printf("Hello, World!\n");
+
+    printf("Setting sessiond.hStdin & sessiond.hStdout... ");
+    sessiond.hStdin = GetStdHandle(STD_INPUT_HANDLE);
+    sessiond.hStdio = GetStdHandle(STD_OUTPUT_HANDLE);
+    printf("done\n");
+
+    printf("enabling window events... ");
+    SetConsoleMode(sessiond.hStdin,ENABLE_WINDOW_INPUT | ENABLE_EXTENDED_FLAGS);
+    printf("done\n");
+
     printf("Setting window title. . .\n");
     system("title bin/SomeTerminalGame");
     printf("[ OK ] The window title has been set as: \"bin/SomeTerminalGame\"\n");
@@ -1933,8 +1974,7 @@ void run_tests(void){
     _stack_;
     _check_bp;
     printf("run_tests...\n");
-    HANDLE_errormessage("fart",0x00000);
-    printf("%d\n",sessiond.mainThreadId);
+    printf("    no tests to run!\n");
 }
 
 //data
@@ -2737,7 +2777,7 @@ int promptline(){
     *
     *   command parser
     *   took me a while to make
-    *   do NOT fuck with this please
+    *   do NOT mess with this please
     * 
     */
     _command parse;

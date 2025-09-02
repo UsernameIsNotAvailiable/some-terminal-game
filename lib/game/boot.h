@@ -14,7 +14,6 @@
 #define __HWID_DISK0 "//DEVICE/HARDDISK0"
 #define __HWID_USB0 "//DEVICE/USB/removeableMedia0"
 #define __HWID_ETHER0 "//DEVICE/NET/ethernetPort0"
-#define __HWID_DJT "//DEVICE/DONALD/TRUMP/2024"
 #define __HWID_SECRET_CREDITS "//DEVICE/META/SECRET_CREDITS"
 #define __HWFS_ROOT "rootfs"
 #define _stack_ addStack(__FUNCTION__)
@@ -109,12 +108,6 @@ int boot(device Desired){
         }
         USB.CurrentDevice = true;
         game();
-    }
-    if(strcmp(Desired.HardwareAddress, __HWID_DJT) == 0){
-        system("cls");
-        printf("DONALD TRUMP 2024");
-        sleep(1500);
-        screen_boot(false);
     }
     if(strcmp(Desired.HardwareAddress, __HWID_SECRET_CREDITS) == 0){
         system("cls");

@@ -36,7 +36,8 @@
         "topright.h": "c",
         "registry.h": "c",
         "usrmgr.h": "c",
-        "*.rh": "c"
+        "*.rh": "c",
+        "WHY.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "Lua.diagnostics.globals": [
