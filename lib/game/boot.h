@@ -40,7 +40,6 @@ int load_prompt(){
 extern device TerminalZ;
 extern device USB;
 extern device ethernet;
-extern device djt;
 extern device secret_credits;
 
 int loader(char action[50]){
@@ -54,10 +53,6 @@ int loader(char action[50]){
         screen_boot(false);
         boot(USB);
         return 0;
-    }
-    if(strcmpi(action, "2024") == 0){
-        screen_boot(false);
-        boot(djt);
     }
     if(strcmpi(action, "secret") == 0){
         screen_boot(false);

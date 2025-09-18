@@ -69,6 +69,7 @@
 #define __PROTECTED_FUNCTION_BAD_RETURN     0x000000037
 #define __MUTEX_ABANDONED                   0x000000038
 #define __MUTEX_WAIT_FAILED                 0x000000039
+#define __EARLY_ARG_CRASH                   0x00000003A
 
 /* errors of all time 🔥🔥😭😭💀💀                */ 
 #define __FUCK_YOU                          0x000694201
@@ -81,5 +82,10 @@
 #define __VIBE_CHECK                        0x000694208
 #define __BRM5_HITREG_MOMENT                0x000694209
 #define __NOT_ALLOWED                       0x000694210
+
+/*
+* ms. walker won't like this error 🔥
+*/
+#define __67                                0x000000067 
 
 #endif

@@ -515,3 +515,30 @@ Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C000
 Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
       Technical information: 18008 : 0x00007FF6E8D745B8 : 0x0000002FC42DDE58 : 0x00007FF6E8D7A15E
       Refferal ID: 503-18008-12263
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 11168 : 0x00007FF6A7044538 : 0x00000094BFC14B58 : 0x00007FF6A704A0DE
+      Refferal ID: 500-11168-3743
+Fatal error initiated with reason of: EARLY_ARG_CRASH (0x00000003A).
+      Technical information: 27000 : 0x00007FF6EF1A4538 : 0x000000AE66AFF6E8 : 0x00007FF6EF1B55D5
+      Refferal ID: 500-27000-13653
+Fatal error initiated with reason of: EARLY_ARG_CRASH (0x00000003A).
+      Technical information: 23084 : 0x00007FF6EF1A4538 : 0x0000007CF9B3F808 : 0x00007FF6EF1B55D5
+      Refferal ID: 500-23084-13699
+Fatal error initiated with reason of: EARLY_ARG_CRASH (0x00000003A).
+      Technical information: 14064 : 0x00007FF6EF1A4538 : 0x000000E4480FF528 : 0x00007FF6EF1B55D5
+      Refferal ID: 500-14064-13741
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 26796 : 0x00007FF6EF1A4538 : 0x0000002F4A6E5218 : 0x00007FF6EF1B5314
+      Refferal ID: 500-26796-16674
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 8064 : 0x00007FF743FA4538 : 0x0000001517FCD758 : 0x00007FF743FAA0DE
+      Refferal ID: 500-8064-16984
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 3444 : 0x00007FF743FA4538 : 0x00000079AB4E5548 : 0x00007FF743FB5354
+      Refferal ID: 500-3444-17043
+Fatal error initiated with reason of: EARLY_ARG_CRASH (0x00000003A).
+      Technical information: 18544 : 0x00007FF743FA4538 : 0x00000078535AF478 : 0x00007FF743FB5615
+      Refferal ID: 500-18544-21174
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
+      Technical information: 9120 : 0x00007FF6FDA54538 : 0x0000009A714FD7D8 : 0x00007FF6FDA5A0DE
+      Refferal ID: 500-9120-24811

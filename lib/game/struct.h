@@ -84,6 +84,8 @@ typedef struct{
     bool AllowPowerout;
     bool DumpstackOnCrash;
     bool useRegistryCache;
+    bool noStack;
+    bool extraModuleInfo;
     int ColorSelection;
 }external_settings;
 
@@ -139,6 +141,11 @@ typedef struct{
     int sessionID;
     int PID;
     int Level;
+
+    int argc;
+    char **argv;
+
+
     struct{
         int Chance;
         int When; //unix time

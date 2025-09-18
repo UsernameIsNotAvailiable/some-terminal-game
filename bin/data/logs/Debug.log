@@ -1852,3 +1852,397 @@
 9/1/2025 19:18:42[logT:OUT]:	Stack end
 
 9/1/2025 19:18:42[logT:OUT]:	registry: flushed cache
+9/3/2025 17:51:40[logT:OUT]:	Stack begin
+9/3/2025 17:51:40[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 37066 - Compiled Wed Sep  3 17:51:28 2025 local time (1756921888 unix time) with MSVC Version 19.44.5209
+9/3/2025 17:51:40[logT:OUT]:	registry: write cached string data: Color="03"
+9/3/2025 17:51:40[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/3/2025 17:51:40[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/3/2025 17:51:40[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/3/2025 17:51:40[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/3/2025 17:51:40[logT:OUT]:	Startup finished!
+9/3/2025 17:51:40[logT:OUT]:	using debug console
+9/3/2025 17:52:22[logT:OUT]:	Stack end
+
+9/3/2025 17:52:22[logT:OUT]:	registry: flushed cache
+9/3/2025 17:55:29[logT:OUT]:	Stack begin
+9/3/2025 17:55:29[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 38568 - Compiled Wed Sep  3 17:55:10 2025 local time (1756922118 unix time) with MSVC Version 19.44.5209
+9/3/2025 17:55:29[logT:OUT]:	registry: write cached string data: Color="03"
+9/3/2025 17:55:29[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/3/2025 17:55:29[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/3/2025 17:55:29[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/3/2025 17:55:29[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/3/2025 17:55:29[logT:OUT]:	Startup finished!
+9/3/2025 17:55:29[logT:OUT]:	using debug console
+9/3/2025 17:55:58[logT:OUT]:	Stack end
+
+9/3/2025 17:55:58[logT:OUT]:	registry: flushed cache
+9/3/2025 17:56:31[logT:OUT]:	Stack begin
+9/3/2025 17:56:31[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 39032 - Compiled Wed Sep  3 17:56:28 2025 local time (1756922189 unix time) with MSVC Version 19.44.5209
+9/3/2025 17:56:31[logT:OUT]:	registry: write cached string data: Color="03"
+9/3/2025 17:56:31[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/3/2025 17:56:31[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/3/2025 17:56:31[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/3/2025 17:56:31[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/3/2025 17:56:31[logT:OUT]:	Startup finished!
+9/3/2025 17:56:31[logT:OUT]:	using debug console
+9/3/2025 17:57:07[logT:OUT]:	Stack end
+
+9/3/2025 17:57:07[logT:OUT]:	registry: flushed cache
+9/3/2025 17:57:30[logT:OUT]:	Stack begin
+9/3/2025 17:57:30[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 39032 - Compiled Wed Sep  3 17:56:28 2025 local time (1756922189 unix time) with MSVC Version 19.44.5209
+9/3/2025 17:57:30[logT:OUT]:	registry: write cached string data: Color="03"
+9/3/2025 17:57:30[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/3/2025 17:57:30[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/3/2025 17:57:30[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/3/2025 17:57:31[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/3/2025 17:57:31[logT:OUT]:	Startup finished!
+9/3/2025 17:57:31[logT:OUT]:	using debug console
+9/3/2025 17:57:42[logT:FATAL]:	Fatal error initated. See FATAL.log for more information.
+9/3/2025 17:58:03[logT:EXIT]:	Fatal exit for SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 39032 - Compiled Wed Sep  3 17:56:28 2025 local time (1756922189 unix time) with MSVC Version 19.44.5209 located at D:\Personal\C\some_terminal_game\src\bin
+
+9/4/2025 20:08:46[logT:OUT]:	Stack begin
+9/4/2025 20:08:46[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 59316 - Compiled Thu Sep  4 19:53:20 2025 local time (1757015604 unix time) with MSVC Version 19.44.5209
+9/4/2025 20:08:46[logT:OUT]:	registry: write cached string data: Color="03"
+9/4/2025 20:08:46[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/4/2025 20:08:46[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/4/2025 20:08:46[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/4/2025 20:08:46[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/4/2025 20:08:46[logT:OUT]:	Startup finished!
+9/4/2025 20:08:46[logT:OUT]:	using debug console
+9/4/2025 20:08:51[logT:FATAL]:	Fatal error initated. See FATAL.log for more information.
+9/4/2025 20:09:16[logT:EXIT]:	Fatal exit for SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 59316 - Compiled Thu Sep  4 19:53:20 2025 local time (1757015604 unix time) with MSVC Version 19.44.5209 located at D:\Personal\C\some_terminal_game\src\bin
+
+9/4/2025 20:12:49[logT:OUT]:	Stack begin
+9/4/2025 20:12:49[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 1344 - Compiled Thu Sep  4 20:12:28 2025 local time (1757016762 unix time) with MSVC Version 19.44.5209
+9/4/2025 20:12:49[logT:OUT]:	registry: write cached string data: Color="03"
+9/4/2025 20:12:49[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/4/2025 20:12:49[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/4/2025 20:12:49[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/4/2025 20:12:49[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/4/2025 20:12:49[logT:OUT]:	Startup finished!
+9/4/2025 20:12:49[logT:OUT]:	using debug console
+9/4/2025 20:14:50[logT:OUT]:	Stack begin
+9/4/2025 20:14:50[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/4/2025 20:14:50[logT:OUT]:	registry: write cached string data: Color="03"
+9/4/2025 20:14:50[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/4/2025 20:14:52[logT:OUT]:	Stack begin
+9/4/2025 20:14:52[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/4/2025 20:14:52[logT:OUT]:	registry: write cached string data: Color="03"
+9/4/2025 20:14:52[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/4/2025 20:14:52[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/4/2025 20:14:52[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/4/2025 20:14:52[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/4/2025 20:14:52[logT:OUT]:	Startup finished!
+9/4/2025 20:14:52[logT:OUT]:	using debug console
+9/4/2025 20:14:55[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\useRegistryCache=1
+9/4/2025 20:14:55[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysLogfile=1
+9/4/2025 20:14:55[logT:OUT]:	Stack begin
+9/4/2025 20:14:55[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/4/2025 20:14:58[logT:OUT]:	Stack begin
+9/4/2025 20:14:58[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/4/2025 20:14:58[logT:OUT]:	registry: write cached string data: Color="03"
+9/4/2025 20:14:58[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/4/2025 20:14:58[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/4/2025 20:14:58[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/4/2025 20:14:58[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/4/2025 20:14:58[logT:OUT]:	Startup finished!
+9/4/2025 20:14:58[logT:OUT]:	using debug console
+9/4/2025 20:15:01[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\useRegistryCache=1
+9/4/2025 20:15:04[logT:OUT]:	Stack begin
+9/4/2025 20:15:04[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/4/2025 20:15:04[logT:OUT]:	registry: write cached string data: Color="03"
+9/4/2025 20:15:04[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/5/2025 04:32:09[logT:OUT]:	Stack begin
+9/5/2025 04:32:09[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/5/2025 04:32:09[logT:OUT]:	registry: write cached string data: Color="03"
+9/5/2025 04:32:09[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/5/2025 04:32:09[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/5/2025 04:32:09[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/5/2025 04:32:09[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/5/2025 04:32:09[logT:FATAL]:	Fatal error initated. See FATAL.log for more information.
+9/5/2025 04:32:14[logT:EXIT]:	Fatal exit for SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209 located at D:\Personal\C\some_terminal_game\src\bin
+
+9/5/2025 04:32:21[logT:OUT]:	Stack begin
+9/5/2025 04:32:21[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/5/2025 04:32:21[logT:OUT]:	registry: write cached string data: Color="03"
+9/5/2025 04:32:21[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/5/2025 04:32:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/5/2025 04:32:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/5/2025 04:32:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/5/2025 04:32:21[logT:OUT]:	Startup finished!
+9/5/2025 04:32:21[logT:OUT]:	using debug console
+9/5/2025 04:32:28[logT:FATAL]:	Fatal error initated. See FATAL.log for more information.
+9/5/2025 04:33:16[logT:EXIT]:	Fatal exit for SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209 located at D:\Personal\C\some_terminal_game\src\bin
+
+9/5/2025 04:34:47[logT:OUT]:	Stack begin
+9/5/2025 04:34:47[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/5/2025 04:34:47[logT:OUT]:	registry: write cached string data: Color="03"
+9/5/2025 04:34:47[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/5/2025 04:34:47[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/5/2025 04:34:47[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/5/2025 04:34:47[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/5/2025 04:34:47[logT:OUT]:	Startup finished!
+9/5/2025 04:34:47[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:34:52[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:34:53[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:34:54[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/5/2025 04:34:54[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/5/2025 04:34:54[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:34:55[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:34:56[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:34:56[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:34:56[logT:OUT]:	Stack end
+
+9/5/2025 04:34:56[logT:OUT]:	registry: flushed cache
+9/5/2025 04:50:36[logT:OUT]:	Stack begin
+9/5/2025 04:50:36[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/5/2025 04:50:36[logT:OUT]:	registry: write cached string data: Color="03"
+9/5/2025 04:50:36[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/5/2025 04:50:36[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/5/2025 04:50:36[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/5/2025 04:50:36[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/5/2025 04:50:36[logT:OUT]:	Startup finished!
+9/5/2025 04:50:36[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:50:44[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:32[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:33[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:37[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:38[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:40[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:41[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:51[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:51:52[logT:OUT]:	registry: read cached string data: Color="03"
+9/5/2025 04:52:04[logT:INTURRUPT]:	Recived signal inturrupt: SIGTERM
+9/5/2025 04:52:04[logT:OUT]:	Stack end
+
+9/5/2025 04:52:04[logT:OUT]:	registry: flushed cache
+9/5/2025 04:52:23[logT:OUT]:	Stack begin
+9/5/2025 04:52:23[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/5/2025 04:52:23[logT:OUT]:	registry: write cached string data: Color="03"
+9/5/2025 04:52:23[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/5/2025 04:52:23[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/5/2025 04:52:23[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/5/2025 04:52:23[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/5/2025 04:52:23[logT:OUT]:	Startup finished!
+9/5/2025 04:52:23[logT:OUT]:	using debug console
+9/5/2025 04:53:50[logT:OUT]:	Stack begin
+9/5/2025 04:53:50[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/5/2025 04:53:50[logT:OUT]:	registry: write cached string data: Color="03"
+9/5/2025 04:53:50[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/5/2025 04:53:50[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/5/2025 04:53:50[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/5/2025 04:53:50[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/5/2025 04:53:50[logT:OUT]:	Startup finished!
+9/5/2025 04:53:50[logT:OUT]:	using debug console
+9/5/2025 04:54:26[logT:OUT]:	Stack end
+
+9/5/2025 04:54:26[logT:OUT]:	registry: flushed cache
+9/7/2025 04:35:03[logT:OUT]:	Stack begin
+9/7/2025 04:35:03[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/7/2025 04:35:03[logT:OUT]:	registry: write cached string data: Color="03"
+9/7/2025 04:35:03[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/7/2025 04:35:03[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/7/2025 04:35:03[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/7/2025 04:35:03[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/7/2025 04:35:03[logT:OUT]:	Startup finished!
+9/7/2025 04:35:03[logT:OUT]:	registry: read cached string data: Color="03"
+9/7/2025 04:35:05[logT:INTURRUPT]:	Recived signal inturrupt: SIGTERM
+9/7/2025 04:35:05[logT:OUT]:	Stack end
+
+9/7/2025 04:35:05[logT:OUT]:	registry: flushed cache
+9/7/2025 04:35:10[logT:OUT]:	Stack begin
+9/7/2025 04:35:10[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209
+9/7/2025 04:35:10[logT:OUT]:	registry: write cached string data: Color="03"
+9/7/2025 04:35:10[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/7/2025 04:35:10[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/7/2025 04:35:10[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/7/2025 04:35:10[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/7/2025 04:35:10[logT:FATAL]:	Fatal error initated. See FATAL.log for more information.
+9/7/2025 04:35:14[logT:EXIT]:	Fatal exit for SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 2166 - Compiled Thu Sep  4 20:14:44 2025 local time (1757016888 unix time) with MSVC Version 19.44.5209 located at D:\Personal\C\some_terminal_game\src\bin
+
+9/13/2025 20:32:23[logT:OUT]:	Stack begin
+9/13/2025 20:32:23[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 41348 - Compiled Thu Sep  4 20:15:46 2025 local time (1757795533 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:32:23[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:32:23[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:32:23[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:32:23[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:32:23[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:32:23[logT:OUT]:	Startup finished!
+9/13/2025 20:32:23[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:32:57[logT:OUT]:	Stack begin
+9/13/2025 20:32:57[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 41622 - Compiled Thu Sep  4 20:15:46 2025 local time (1757795575 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:32:57[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:32:57[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:32:57[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:32:57[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:32:57[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:32:57[logT:OUT]:	Startup finished!
+9/13/2025 20:32:57[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:33:05[logT:OUT]:	Stack begin
+9/13/2025 20:33:05[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 41622 - Compiled Thu Sep  4 20:15:46 2025 local time (1757795575 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:33:05[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:33:05[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:33:05[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:33:05[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:33:05[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:33:05[logT:OUT]:	Startup finished!
+9/13/2025 20:33:05[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:33:45[logT:OUT]:	Stack begin
+9/13/2025 20:33:45[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 41622 - Compiled Thu Sep  4 20:15:46 2025 local time (1757795575 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:33:45[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:33:45[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:33:46[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:33:46[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:33:46[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:33:46[logT:OUT]:	Startup finished!
+9/13/2025 20:33:46[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:51:07[logT:OUT]:	Stack begin
+9/13/2025 20:51:07[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 48728 - Compiled Thu Sep  4 20:15:46 2025 local time (1757796663 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:51:07[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:51:07[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:51:07[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:51:07[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:51:07[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:51:07[logT:OUT]:	Startup finished!
+9/13/2025 20:51:07[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:52:22[logT:OUT]:	Stack begin
+9/13/2025 20:52:22[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 49232 - Compiled Thu Sep  4 20:15:46 2025 local time (1757796740 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:52:22[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:52:22[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:52:22[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:52:22[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:52:22[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:52:22[logT:OUT]:	Startup finished!
+9/13/2025 20:52:22[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:53:25[logT:OUT]:	Stack begin
+9/13/2025 20:53:25[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 49636 - Compiled Thu Sep  4 20:15:46 2025 local time (1757796802 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:53:25[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:53:25[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:53:25[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:53:25[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:53:25[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:53:26[logT:OUT]:	Startup finished!
+9/13/2025 20:53:26[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:54:40[logT:OUT]:	Stack begin
+9/13/2025 20:54:40[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 50126 - Compiled Thu Sep  4 20:15:46 2025 local time (1757796877 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:54:40[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:54:40[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:54:40[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:54:40[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:54:40[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:54:40[logT:OUT]:	Startup finished!
+9/13/2025 20:54:40[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:55:50[logT:OUT]:	Stack begin
+9/13/2025 20:55:50[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 50570 - Compiled Thu Sep  4 20:15:46 2025 local time (1757796945 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:55:50[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:55:50[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:55:50[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:55:50[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:55:50[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:55:50[logT:OUT]:	Startup finished!
+9/13/2025 20:55:50[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:57:12[logT:OUT]:	Stack begin
+9/13/2025 20:57:12[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 51112 - Compiled Thu Sep  4 20:15:46 2025 local time (1757797028 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:57:12[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:57:12[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:57:12[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:57:12[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:57:12[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:57:12[logT:OUT]:	Startup finished!
+9/13/2025 20:57:12[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 20:58:49[logT:OUT]:	Stack begin
+9/13/2025 20:58:49[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 51732 - Compiled Sat Sep 13 20:58:42 2025 local time (1757797123 unix time) with MSVC Version 19.44.5214
+9/13/2025 20:58:49[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 20:58:49[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 20:58:49[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 20:58:49[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 20:58:49[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 20:58:49[logT:OUT]:	Startup finished!
+9/13/2025 21:00:21[logT:OUT]:	Stack begin
+9/13/2025 21:00:21[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 52346 - Compiled Sat Sep 13 21:00:04 2025 local time (1757797217 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:00:21[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:00:21[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:00:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:00:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:00:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:00:21[logT:OUT]:	Startup finished!
+9/13/2025 21:00:44[logT:OUT]:	Stack begin
+9/13/2025 21:00:44[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 52510 - Compiled Sat Sep 13 21:00:42 2025 local time (1757797242 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:00:44[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:00:44[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:00:44[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:00:44[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:00:44[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:00:44[logT:OUT]:	Startup finished!
+9/13/2025 21:00:44[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:00:48[logT:OUT]:	Stack begin
+9/13/2025 21:00:48[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 52510 - Compiled Sat Sep 13 21:00:42 2025 local time (1757797242 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:00:48[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:00:48[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:00:48[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:00:48[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:00:48[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:00:48[logT:OUT]:	Startup finished!
+9/13/2025 21:00:48[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:00:49[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:00:50[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:00:50[logT:OUT]:	Stack end
+
+9/13/2025 21:00:50[logT:OUT]:	registry: flushed cache
+9/13/2025 21:00:52[logT:OUT]:	Stack begin
+9/13/2025 21:00:52[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 52510 - Compiled Sat Sep 13 21:00:42 2025 local time (1757797242 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:00:52[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:00:52[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:00:52[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:00:52[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:00:52[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:00:52[logT:OUT]:	Startup finished!
+9/13/2025 21:00:52[logT:OUT]:	using debug console
+9/13/2025 21:02:19[logT:OUT]:	Stack begin
+9/13/2025 21:02:19[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 53130 - Compiled Sat Sep 13 21:00:42 2025 local time (1757797337 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:02:19[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:02:19[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:02:19[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:02:19[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:02:19[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:02:19[logT:OUT]:	Startup finished!
+9/13/2025 21:02:19[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:02:20[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:02:21[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:02:21[logT:OUT]:	Stack end
+
+9/13/2025 21:02:21[logT:OUT]:	registry: flushed cache
+9/13/2025 21:02:25[logT:OUT]:	Stack begin
+9/13/2025 21:02:25[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 53130 - Compiled Sat Sep 13 21:00:42 2025 local time (1757797337 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:02:25[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:02:25[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:02:25[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:02:25[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:02:25[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:02:25[logT:OUT]:	Startup finished!
+9/13/2025 21:02:25[logT:OUT]:	using debug console
+9/13/2025 21:06:21[logT:OUT]:	Stack begin
+9/13/2025 21:06:21[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 54698 - Compiled Sat Sep 13 21:00:42 2025 local time (1757797577 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:06:21[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:06:21[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:06:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:06:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:06:21[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:06:21[logT:OUT]:	Startup finished!
+9/13/2025 21:06:21[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:06:24[logT:OUT]:	Stack begin
+9/13/2025 21:06:24[logT:OUT]:	SomeTerminalGame Version 1.7.9.4.test_build codename "Return" build 54698 - Compiled Sat Sep 13 21:00:42 2025 local time (1757797577 unix time) with MSVC Version 19.44.5214
+9/13/2025 21:06:24[logT:OUT]:	registry: write cached string data: Color="03"
+9/13/2025 21:06:24[logT:OUT]:	registry: read REG_SZ: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\Color="03"
+9/13/2025 21:06:24[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\SuppressSplashMessage=0
+9/13/2025 21:06:24[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\DumpstackOnCrash=1
+9/13/2025 21:06:24[logT:OUT]:	registry: read REG_DWORD: REGISTRY\HKEY_CURRENT_USER\Software\SomeTerminalGame\alwaysDebug=1
+9/13/2025 21:06:24[logT:OUT]:	Startup finished!
+9/13/2025 21:06:24[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:06:25[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:06:27[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:06:27[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:06:27[logT:OUT]:	registry: read cached string data: Color="03"
+9/13/2025 21:06:28[logT:OUT]:	Stack end
+
+9/13/2025 21:06:28[logT:OUT]:	registry: flushed cache

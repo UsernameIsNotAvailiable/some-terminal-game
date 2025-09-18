@@ -37,7 +37,10 @@
         "registry.h": "c",
         "usrmgr.h": "c",
         "*.rh": "c",
-        "WHY.C": "cpp"
+        "WHY.C": "cpp",
+        "hook.h": "c",
+        "struct.h": "c",
+        "compile_time.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "Lua.diagnostics.globals": [

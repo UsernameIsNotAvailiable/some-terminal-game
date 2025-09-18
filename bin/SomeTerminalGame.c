@@ -59,7 +59,7 @@ int __impl_warn_depercated(const char *file,const char *func){
 
 #define _WARN_DEPERCATED() __impl_warn_depercated(strip_to_last_slash(__FILE__),__FUNCTION__)
 
-//directory things
+
 #define _DIR_PROGRAM_DATA ".\\data\\app\\"
 #define _DIR_RESOURCES ".\\data\\app\\resources\\"
 #define _DIR_LOG ".\\data\\logs\\"
@@ -185,9 +185,15 @@ int __impl_warn_depercated(const char *file,const char *func){
 
 #pragma message("===> Building rest of file "__FILE__)
 
+#define _STRINGIFY(x) #x
+#define _TOSTRING(x) _STRINGIFY(x)
+
+#define COMPILE_MSG(msg) _Pragma(_TOSTRING(message(__FILE__ "(" _TOSTRING(__LINE__) "): "msg)))
+
 static char protectedFunctions[50][50] = {
     "_wow"
 };
+
 
 #define PROTECTED(rfname) \
     int _real_protected_##rfname(const char *fname); \
@@ -952,7 +958,6 @@ device ethernet = {
 extern device USB;
 extern device TerminalZ;
 extern device ethernet;
-extern device djt;
 extern device secret_credits;
 
 //*universal data tables
@@ -1098,7 +1103,6 @@ int RegisterAllDevices(){
     _stack_;
     RegisterDevice(&TerminalZ, true, true, true, false);
     RegisterDevice(&USB, false, false, false, false);
-    RegisterDevice(&djt, true, false, false, true);
     RegisterDevice(&secret_credits, true, false, false, true);
     return 0;
 }
@@ -1561,9 +1565,11 @@ int StoreCurrentRuntimeDependencies(){
                     //printf("    .SizeOfImage=%d bytes\n",modinfo.SizeOfImage);
                     //printf("}\n");
                     printf("\t%s\n",paths.NtPath);
-                    //printf("       Image entry: 0x%p\n",modinfo.EntryPoint);
-                    //printf("       Image base: 0x%p\n",modinfo.lpBaseOfDll);
-                    //printf("       Image size (in bytes): %d\n",modinfo.SizeOfImage);
+                    if(settings.extraModuleInfo){
+                        printf("\t\tImage entry: 0x%p\n",modinfo.EntryPoint);
+                        printf("\t\tImage base: 0x%p\n",modinfo.lpBaseOfDll);
+                        printf("\t\tImage size (in bytes): %d\n",modinfo.SizeOfImage);
+                    }
                 }
             }
         }
@@ -1653,7 +1659,16 @@ int main(int argc, char* argv[]) {
             printf("    --ignorerrors       Ignore any error and exception handling\n");
             printf("    --console           After startup, jumps to debug console.\n");
             printf("    --noregistrycache   Do not cache registry read's.\n");
+            printf("    --nostack           Do not save stack debug information.\n");
+            printf("    --modinfo           Extended module (dll) information on startup.\n");
             printf("    --reset             Reset registry config, can only be used alone.\n");
+            printf("\n\n");
+            printf("SomeTerminalGame / Early Startup Arguments\n");
+            printf("------------------------------------------------\n");
+            printf("    !MODINFO            Extended information on modules during\n");
+            printf("                            startup target: LoadModulesAndDependencies\n");
+            printf("    !FATAL              Crash before core information is setup\n");
+            printf("                            (just so i can mess around lol)\n");
             return 0;
         }
         if(strcmpi(argv[1],"--reset") == 0){
@@ -1666,6 +1681,29 @@ int main(int argc, char* argv[]) {
     system("cls");
     printf("\n");
     HANDLE_earlymsg("Do pre-startup init\n");
+    //register the main thread for the sake of it
+    //name it main for simplicit
+    HANDLE_earlymsg("register main thread...\n");
+    htMain = GetCurrentThread();
+    thread_init(htMain);
+    sessiond.mainThreadId = GetCurrentThreadId();
+    HANDLE_earlymsg("checking if we have an early startup arguments...\n");
+    if(argv[1] != NULL){
+        if(strcmpi(argv[1],"!MODINFO")==0){
+            settings.extraModuleInfo = true;
+            HANDLE_earlymsg("applied '!MODINFO'\n");
+        } else if(strcmpi(argv[1],"!FATAL") == 0){
+            /* for some stupid reason the user wants the 
+             * program to crash during early setup
+             *
+             * :(
+            */
+            HANDLE_earlymsg("ok, let's crash the game lol >:3");
+            HANDLE_fatal("EARLY_ARG_CRASH",__EARLY_ARG_CRASH);
+        }else {
+            HANDLE_earlymsg("no early args...\n");
+        }
+    }
     //get build from time
     srand(UNIX_TIMESTAMP);
     build = rand() * 2;
@@ -1688,6 +1726,8 @@ int main(int argc, char* argv[]) {
     signal_init();
     _check_bp;
     _stack_;
+    sessiond.argc = argc;
+    sessiond.argv = argv;
     sessiond.entryAddress = (void*)main;
     sessiond.memLimit = 10000000000LLU;
     sessiond.hProcess = GetCurrentProcess();
@@ -1697,11 +1737,6 @@ int main(int argc, char* argv[]) {
     baseAddress = (void*)tmp;
     sessiond.baseAddress = baseAddress;
     //startup
-    //register the main thread for the sake of it
-    //name it main for simplicit
-    htMain = GetCurrentThread();
-    thread_init(htMain);
-    sessiond.mainThreadId = GetCurrentThreadId();
     thread_main_active = true;
 
     clock_t start_time, end_time;
@@ -1767,7 +1802,15 @@ int main(int argc, char* argv[]) {
         } else if(strcmpi(argv[1],"--noregistrycache") == 0){
             settings.useRegistryCache = false;
             regCachesetFromCmd = true;
-        }else {
+            printf("[ OK ] Starting argument applied: '%s'\n", argv[i]);
+        } else if(strcmpi(argv[1],"--nostack") == 0){
+            // just mark it has halted instead of creating a new value
+            stackd.stackHalted = true;
+            printf("[ OK ] Starting argument applied: '%s'\n", argv[i]);
+        } else if(strcmpi(argv[1],"--modinfo") == 0){
+            settings.extraModuleInfo = true;
+            printf("[ OK ] Starting argument applied: '%s'\n", argv[i]);
+        } else {
             printf("[ ERROR ] Ignoring unknown argument: '%s'\n", argv[i]);
         }
     }
@@ -1974,7 +2017,7 @@ void run_tests(void){
     _stack_;
     _check_bp;
     printf("run_tests...\n");
-    printf("    no tests to run!\n");
+    printf("    no tests!\n");
 }
 
 //data
@@ -2074,6 +2117,10 @@ int execute(_command *cmd) {
         printf("    unixtime            Prints the time from the Unix Epoch (seconds since January 1st, 1970).\n");
         printf("    stg-version         Displays version info for SomeTerminalGame.\n");
         promptline();
+    }
+    if(strcmpi(cmd->command[0],"call_main!")==0){
+        printf("idk if this will break, but let's try! >:3\n");
+        main(sessiond.argc,sessiond.argv);
     }
     if(strcmpi(cmd->command[0],"getAGirlfriend")==0){
         GetAGirlfriend();
@@ -2382,6 +2429,11 @@ int execute(_command *cmd) {
             printf("    win-reg                     Registry experiment\n"); 
             printf("    hook                        Hook API stuff.\n");
             printf("    put \"help\" after any command for extra information\n");
+        }
+
+        if(strcmpi(cmd->command[1],"panic!") == 0){
+            _panic2("user initiated panic");
+            // we will not return from this 'if' statement
         }
 
         if(strcmpi(cmd->command[1],"hook") == 0){

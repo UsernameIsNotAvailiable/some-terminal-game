@@ -69,6 +69,16 @@
 #include "../../external/compile_time.h"
 #include "../../game/hook.h"
 
+extern session_informaton sessiond;
+extern external_settings settings;
+
+#define _is_main_thread_() (GetCurrentThreadId == sessiond.mainThreadId)
+
+#define _not_thread_safe_(thread_safe_func) \
+    if(_is_main_thread_()) \
+        __impl_panic(__FUNCTION__,GetCurrentThreadId(),strip_to_last_slash(__FILE__),__LINE__,"attempt to call a non-thread safe function from a thread!") \
+
+
 struct fatal_data{
     int repeatCount;
     int maxRepeatCount;
@@ -115,8 +125,6 @@ bool ForceDumpWrite = false;
 bool showDumpStatus = false;
 extern stack_data stackd;
 extern char stack[1024][256];
-extern session_informaton sessiond;
-extern external_settings settings;
 extern _fatal_paramaters _fparam;
 extern HookRoot hCrash;
 extern DWORD mainThreadId;
@@ -132,7 +140,11 @@ Alternative to HANLDE_fatal (__impl_HANDLE_fatal).
 #define _panic() __impl_panic(__FUNCTION__,GetCurrentThreadId(),strip_to_last_slash(__FILE__),__LINE__,"")
 
 no_return void __impl_panic(char *func,DWORD faultingThread,char *file,int line,char *errmsg){
+    // oh my gosh
+    // HANDLE_fatal() but thread safe????
+    // i can't imagine it
     _stack_;
+
     printf("\n");
     if(strlen(errmsg) > 1){
         printf("panic: macro _panic2() ==> __impl_panic()\n");
@@ -155,14 +167,11 @@ no_return void __impl_panic(char *func,DWORD faultingThread,char *file,int line,
         "panic:         errno:              %d\n"
         "panic: ]",faultingThread,func,file,line,GetLastError(),errno
     );
+    printf("\n\nbacktracing...\n");
+    printStack();
     showcursor();
     exit(GetLastError());
 }
-
-/*
-Thread safe HANDLE_fatal
-
-*/
 
 /*
 Used to notify the user of a major problem.
@@ -732,7 +741,7 @@ char *ThreadPriorityAsString(HANDLE hThread){
         break;
 
     default:
-        return "UNKNOWN";
+        return "THREAD_PRIORITY_UNKNOWN";
         break;
    }
     return 0;
