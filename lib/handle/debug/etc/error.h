@@ -11,7 +11,7 @@
 #pragma message("===> Building file "__FILE__)
 
 /*      ERROR NAME                          CODE       */
-#define __HELPER_SEEK_FAILURE               0x000000001 //helper is deprecated why is this here??
+#define __HELPER_SEEK_FAILURE               0x000000001 //helper is deprecated, why is this here??
 #define __UNKNOWN_FLAG                      0x000000002
 #define __DEBUG_FORCE_FATAL                 0x000000003
 #define __RUNTIME_TEMP_ERROR                0x000000004

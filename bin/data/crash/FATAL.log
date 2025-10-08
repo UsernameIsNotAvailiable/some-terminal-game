@@ -542,3 +542,21 @@ Fatal error initiated with reason of: EARLY_ARG_CRASH (0x00000003A).
 Fatal error initiated with reason of: WINDOWS::EXCEPTION_ACCESS_VIOLATION (0x0C0000005).
       Technical information: 9120 : 0x00007FF6FDA54538 : 0x0000009A714FD7D8 : 0x00007FF6FDA5A0DE
       Refferal ID: 500-9120-24811
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 2032 : 0x00007FF6D6C447C8 : 0x000000C03DBAF358 : 0x00007FF6D6C5DA51
+      Refferal ID: 500-2032-21083
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 21288 : 0x00007FF6D6C447C8 : 0x00000019C60FF4F8 : 0x00007FF6D6C5DA51
+      Refferal ID: 500-21288-21171
+Fatal error initiated with reason of: ABORT_PROCESS (0x000000013).
+      Technical information: 3448 : 0x00007FF6D6C447C8 : 0x000000A96C3653D8 : 0x00007FF6D6C538A3
+      Refferal ID: 500-3448-23506
+Fatal error initiated with reason of: BAD_ARGUMENT_COUNT (0x00000000E).
+      Technical information: 22652 : 0x00007FF6D6C447C8 : 0x0000009F5D3FF8C8 : 0x00007FF6D6C5DA51
+      Refferal ID: 500-22652-27317
+Fatal error initiated with reason of: ERROR_NO_BITCHES (0x000694203).
+      Technical information: 7920 : 0x00007FF6D6C447C8 : 0x000000F1CBF45488 : 0x00007FF6D6C55654
+      Refferal ID: 500-7920-27898
+Fatal error initiated with reason of: WINDOWS::EXCEPTION_STACK_OVERFLOW (0x0C00000FD).
+      Technical information: 27148 : 0x00007FF65BF147C8 : 0x00000008BE4949D8 : 0x00007FF65BF1A36E
+      Refferal ID: 500-27148-12563

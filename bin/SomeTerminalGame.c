@@ -152,7 +152,6 @@ int __impl_warn_depercated(const char *file,const char *func){
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
-#include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <signal.h>
@@ -209,6 +208,7 @@ static char protectedFunctions[50][50] = {
         return ret; \
     } \
     int _real_protected_##rfname(const char *fname) \
+    
 
 
 PROTECTED(protected_function_test){
@@ -1531,18 +1531,19 @@ int quit(int TERMINATION_TYPE){
     printf("\n\n");
     system("cls");
     printf("Invoke SomeTerminalGame/exit\n");
-    showcursor();
+    FlushRegistryCache();
     flushBottom();
     sessiond.top->Flush(sessiond.top);
     killThreads();
-    if(settings.LogFileExist){
+    
+    //don't need to log shit anymore
+    if(settings.LogFileExist)
         ETC_file(_FILE_DEBUG_LOG,"Stack end\n","a","OUT");
-    }
-    FlushRegistryCache();
+    
+    showcursor();
     printf("Ending game. . .\n");
     printf("\n");
     printf("Goodbye!\n");
-    exit(TERMINATION_TYPE);
     TerminateProcess(sessiond.hProcess,TERMINATION_TYPE);
     return TERMINATION_TYPE;
 }
@@ -1842,6 +1843,7 @@ int main(int argc, char* argv[]) {
     printf("[ OK ] Fetched installation location: %s\n", sessiond._installation_path_);
 
     printf("Reached target: registry \n");
+    printf("    REG_PATH=REGISTRY\\HKEY_CURRENT_USER\\%s\n",REG_PATH);
     printf("Checking if registry config exists...\n");
 
     if(!DoesRegistryConfigExist()){
@@ -1860,7 +1862,7 @@ int main(int argc, char* argv[]) {
     bool registryCacheWarningShow = false;
     if(!InitRegistryCache()){
         registryCacheWarningShow = true;
-        HANDLE_warn("Registry data cache is disabled! Expect a lot of registry reads");
+        HANDLE_warn("Registry data cache is disabled! Expect a lot of registry reads.");
         if(regCachesetFromCmd){
             printf("               Source: command line: \"--noregistrycache\"\n\n");
         } else {
@@ -1901,16 +1903,20 @@ int main(int argc, char* argv[]) {
     DWORD dumps = RegistryReadDword("DumpstackOnCrash");
     if(dumps == 1){
         settings.DumpstackOnCrash = true;
-    } else {
+    } else if(dumps == 0) {
         settings.DumpstackOnCrash = false;
+    } else {
+        SetFatalParamater("[registry] DumpstackOnCrash not equal to 0 or 1");
+        HANDLE_fatal("REGISTRY_BAD_CONFIGURATION",__REGISTRY_BAD_CONFIGURATION);
     }
     printf("[ OK ] Applied REG_DWORD REGISTRY\\HKEY_CURRENT_USER\\%s\\DumpstackOnCrash\n",REG_PATH);
 
     DWORD alwaysDbg = RegistryReadDword("alwaysDebug");
     if(alwaysDbg < 0){
-        SetFatalParamater("REGISTRY\\HKEY_CURRENT_USER\\%s\\alwaysDebug < 0");
+        SetFatalParamater("[registry] alwaysDebug < 0");
         HANDLE_fatal("REGISTRY_BAD_CONFIGURATION",__REGISTRY_BAD_CONFIGURATION);
     }
+
     if(alwaysDbg){
         settings.isDebug = true;
     } else {
@@ -2829,7 +2835,7 @@ int promptline(){
     *
     *   command parser
     *   took me a while to make
-    *   do NOT mess with this please
+    *   do NOT fuck with this please
     * 
     */
     _command parse;
